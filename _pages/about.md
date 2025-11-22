@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: [Email](mailto:comin15071460998@gmail.com).
+subtitle: '[Email](mailto:comin15071460998@gmail.com)'
 
 profile:
   align: right
