@@ -1,11 +1,14 @@
 ---
-layout: archive
 title: "Projects"
+layout: archive
 permalink: /projects/
+collection: projects
+entries_layout: grid
 author_profile: true
-redirect_from:
-  - /resume
 ---
+
+Here you can find my research projects.
+
 
 {% include base_path %}
 
