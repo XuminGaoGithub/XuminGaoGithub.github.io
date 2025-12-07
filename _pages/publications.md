@@ -13,10 +13,40 @@ author_profile: true
 
 ## 📝 2025
 
-### **Evaluation and incident prevention in an enterprise AI assistant**  
-Akash V. Maharaj, David Arbour, Daniel Lee, Uttaran Bhattacharya, Anup Rao, Austin Zane, Avi Feller, Kun Qian, Sajjadur Rahman, **Yunyao Li**  
-_AI Magazine_, Vol. 46, Issue 3, Fall 2025  
-[🔗 Journal](https://onlinelibrary.wiley.com/doi/10.1002/aaai.70028)
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+
+  <!-- Left image -->
+  <div style="flex: 0 0 220px;">
+    <img src="/images/xumin.jpg" alt="Multi-CAP" style="width: 220px; border-radius: 6px;">
+  </div>
+
+  <!-- Right content -->
+  <div style="flex: 1;">
+
+  ### **Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments**
+
+  Zongyuan Shen, Burhanuddin Shirose, **Prasanna Sriganesh**, Bhaskar Vundurthy,  
+  Howie Choset, Matthew Travers  
+  *arXiv preprint arXiv:2509.14941*, 2025  
+
+  <p>
+    <a href="https://arxiv.org/abs/2509.14941" style="margin-right:15px;">📄 Full Paper</a>
+    <a href="https://www.youtube.com/watch?v=cp83SsG9wjY" style="margin-right:15px;">🎞️ Video</a>
+  </p>
+
+  <details>
+    <summary><b>Show Abstract</b></summary>
+    <p>
+    Efficient coordination of multiple robots for coverage of large, unknown environments is a significant challenge that involves minimizing the total coverage path length while reducing inter-robot conflicts. In this paper, we introduce a Multi-robot Connectivity-Aware Planner (Multi-CAP), a hierarchical coverage path planning algorithm that facilitates multi-robot coordination through a novel connectivity-aware approach. The algorithm constructs and dynamically maintains an adjacency graph that represents the environment as a set of connected subareas. Critically, we make the assumption that the environment, while unknown, is bounded. This allows for incremental refinement of the adjacency graph online to ensure its structure represents the physical layout of the space, both in observed and unobserved areas of the map as robots explore the environment. We frame the task of assigning subareas to robots as a Vehicle Routing Problem (VRP), a well-studied problem for finding optimal routes for a fleet of vehicles. This is used to compute disjoint tours that minimize redundant travel, assigning each robot a unique, non-conflicting set of subareas. Each robot then executes its assigned tour, independently adapting its coverage strategy within each subarea to minimize path length based on real-time sensor observations of the subarea. We demonstrate through simulations and multi-robot hardware experiments that Multi-CAP significantly outperforms state-of-the-art methods in key metrics, including coverage time, total path length, and path overlap ratio. Ablation studies further validate the critical role of our connectivity-aware graph and the global tour planner in achieving these performance gains.
+    </p>
+  </details>
+
+  </div>
+
+</div>
+
+---
+
 
 ---
 
@@ -55,4 +85,9 @@ _IAAI 2025_
 </div>
 
 ---
+
+
+
+
+
 
