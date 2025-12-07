@@ -17,7 +17,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
   <div style="flex: 0 0 220px;">
-    <img src="/images/multicap_coverage.png" alt="Multi-CAP" style="width: 220px; border-radius: 6px;">
+    <img src="/images/xumin.jpg" alt="Multi-CAP" style="width: 220px; border-radius: 6px;">
   </div>
 
   <!-- 右侧内容 -->
