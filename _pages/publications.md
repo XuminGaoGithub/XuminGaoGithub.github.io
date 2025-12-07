@@ -11,7 +11,8 @@ author_profile: true
 
 ---
 
-## 📝 2025
+
+## 2025
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
@@ -29,11 +30,11 @@ author_profile: true
     </h3>
 
     <!-- Authors: 三个交错人头 -->
-    <p style="margin: 5px 0; line-height:1.5em; display:flex; align-items:center; gap:8px;">
-      <span style="position: relative; width: 40px; height: 24px; display:inline-block;">
-        <span style="position:absolute; left:0; top:0;">👤</span>
-        <span style="position:absolute; left:12px; top:0;">👤</span>
-        <span style="position:absolute; left:24px; top:0;">👤</span>
+    <p style="margin: 5px 0; display:flex; align-items:center; gap:8px;">
+      <span style="display: flex; margin-right:8px;">
+        <span style="width:24px; height:24px; border-radius:50%; background:#999; display:inline-block; border: 2px solid #fff; margin-left:0; z-index:3; position:relative;"></span>
+        <span style="width:24px; height:24px; border-radius:50%; background:#999; display:inline-block; border: 2px solid #fff; margin-left:-10px; z-index:2; position:relative;"></span>
+        <span style="width:24px; height:24px; border-radius:50%; background:#999; display:inline-block; border: 2px solid #fff; margin-left:-10px; z-index:1; position:relative;"></span>
       </span>
       Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, Bhaskar Vundurthy, Howie Choset, Matthew Travers
     </p>
@@ -62,6 +63,7 @@ author_profile: true
 </div>
 
 ---
+
 
 
 
