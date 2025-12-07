@@ -17,7 +17,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
   <div style="flex: 0 0 220px;">
-    <img src="/images/xumin.jpg" alt="Multi-CAP" style="width: 220px; border-radius: 6px;">
+    <img src="/images/multicap_coverage.png" alt="Multi-CAP" style="width: 220px; border-radius: 6px;">
   </div>
 
   <!-- 右侧内容 -->
@@ -28,22 +28,26 @@ author_profile: true
       Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments
     </h3>
 
-    <!-- Authors: 三个交错人头 -->
-    <p style="margin: 5px 0; display:flex; align-items:center; gap:8px;">
-      <span style="display: flex; margin-right:8px;">
-        <span style="width:24px; height:24px; border-radius:50%; background:#999; display:inline-block; border: 2px solid #fff; margin-left:0; z-index:3; position:relative;"></span>
-        <span style="width:24px; height:24px; border-radius:50%; background:#999; display:inline-block; border: 2px solid #fff; margin-left:-10px; z-index:2; position:relative;"></span>
-        <span style="width:24px; height:24px; border-radius:50%; background:#999; display:inline-block; border: 2px solid #fff; margin-left:-10px; z-index:1; position:relative;"></span>
-      </span>
-      Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, Bhaskar Vundurthy, Howie Choset, Matthew Travers
+    <!-- Authors -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">👤👤👤</span>
+      Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, 
+      Bhaskar Vundurthy, Howie Choset, Matthew Travers
     </p>
 
-    <!-- Publisher / Journal -->
-    <p style="margin: 5px 0; line-height:1.5em;">
-      <span style="margin-right:5px;">📚</span>arXiv preprint arXiv:2509.14941, 2025
+    <!-- Publisher -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📚</span> arXiv preprint arXiv:2509.14941
     </p>
 
-    <!-- Links -->
+    <!-- Date + Location -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📅</span> September 18, 2025  
+      &nbsp;&nbsp;&nbsp;
+      <span style="margin-right:6px;">📍</span> (no specific location listed)
+    </p>
+
+    <!-- Buttons -->
     <p style="margin: 10px 0;">
       <a href="https://arxiv.org/abs/2509.14941" style="margin-right:15px;">📄 Full Paper</a>
       <a href="https://www.youtube.com/watch?v=cp83SsG9wjY">🎞️ Video</a>
@@ -58,10 +62,10 @@ author_profile: true
     </details>
 
   </div>
-
 </div>
 
 ---
+
 
 
 
