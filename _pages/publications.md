@@ -47,7 +47,7 @@ _IAAI 2025_
 
   <p>
     <a href="https://www.sciencedirect.com/science/article/pii/S0168169924003016" style="margin-right:15px;">📄 Full Paper</a>
-    <a href="[/images/xumin.](https://huggingface.co/spaces/XuminGao/Aphid-Counting)" style="margin-right:15px;">🎞️ Online App</a>
+    <a href="https://huggingface.co/spaces/XuminGao/Aphid-Counting" style="margin-right:15px;">🎞️ Online App</a>
   </p>
 
   </div>
