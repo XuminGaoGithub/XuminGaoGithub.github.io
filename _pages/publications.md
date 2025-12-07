@@ -10,9 +10,34 @@ redirect_from:
 
 
 ### 2025
-- **[Evaluation and incident prevention in an enterprise AI assistant](https://onlinelibrary.wiley.com/doi/10.1002/aaai.70028)**. Akash V. Maharaj, David Arbour, Daniel Lee, Uttaran Bhattacharya, Anup Rao, Austin Zane, Avi Feller, Kun Qian, Sajjadur Rahman, **Yunyao Li**. In _AI Magazine_, Volume46, Issue3. Fall 2025 (_Extension from [earlier IAAI article](https://ojs.aaai.org/index.php/AAAI/article/view/35161)_). 
+---
 
-- 🏅 **[Evaluation and Incident Prevention in an Enterprise AI Assistant](https://ojs.aaai.org/index.php/AAAI/article/view/35161)**. Akash V Maharaj, David Arbour, Daniel Lee, Uttaran Bhattacharya, Anup Rao, Austin Zane, Kun Qian, **Yunyao Li**. In _IAAI_ 2025. (**DSRI AI Incidents and Best Practices Paper Award**)([blog](https://blog.developer.adobe.com/raising-the-bar-for-ai-assistant-in-adobe-experience-platform-f45dda4b2783))
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+
+  <!-- image on the left -->
+  <div style="flex: 0 0 220px;">
+    <img src="/images/xumin.jpg" alt="Aphid CNN Project" style="width: 220px; border-radius: 6px;">
+  </div>
+
+  <!-- text on the right -->
+  <div style="flex: 1;">
+
+  ### **Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields**
+  **Xumin Gao**, Wei Xue, Chris Lennox, Melissa Stevens, Junfeng Gao  
+  *Computers and Electronics in Agriculture*, Vol. 220, 2024, 108910.  
+
+  <!-- 链接按钮 -->
+  <p>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0168169924003099" style="margin-right:15px;">📄 Full Paper</a>
+    <a href="/images/xumin.jpg" style="margin-right:15px;">🎞️ Video / GIF</a>
+  </p>
+
+  </div>
+
+</div>
+
+---
+
 
 
 ### 2024
