@@ -3,33 +3,51 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-redirect_from:
- - /paper
 ---
+
 {% include base_path %}
 
+欢迎来到我的 Publications 页面。下面包含我发表的论文（支持图文布局）。
 
-### 2025
 ---
+
+## 📝 2025
+
+### **Evaluation and incident prevention in an enterprise AI assistant**  
+Akash V. Maharaj, David Arbour, Daniel Lee, Uttaran Bhattacharya, Anup Rao, Austin Zane, Avi Feller, Kun Qian, Sajjadur Rahman, **Yunyao Li**  
+_AI Magazine_, Vol. 46, Issue 3, Fall 2025  
+[🔗 Journal](https://onlinelibrary.wiley.com/doi/10.1002/aaai.70028)
+
+---
+
+### **Evaluation and Incident Prevention in an Enterprise AI Assistant**  
+Akash V. Maharaj, David Arbour, Daniel Lee, Uttaran Bhattacharya, Anup Rao, Austin Zane, Kun Qian, **Yunyao Li**  
+_IAAI 2025_  
+🏅 **DSRI AI Incidents and Best Practices Paper Award**  
+[🔗 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35161)  
+[🔗 Blog](https://blog.developer.adobe.com/raising-the-bar-for-ai-assistant-in-adobe-experience-platform-f45dda4b2783)
+
+---
+
+## 📝 2024
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
 
-  <!-- image on the left -->
+  <!-- Left image -->
   <div style="flex: 0 0 220px;">
     <img src="/images/xumin.jpg" alt="Aphid CNN Project" style="width: 220px; border-radius: 6px;">
   </div>
 
-  <!-- text on the right -->
+  <!-- Right text -->
   <div style="flex: 1;">
 
   ### **Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields**
   **Xumin Gao**, Wei Xue, Chris Lennox, Melissa Stevens, Junfeng Gao  
-  *Computers and Electronics in Agriculture*, Vol. 220, 2024, 108910.  
+  *Computers and Electronics in Agriculture*, Vol. 220, 2024, 108910  
 
-  <!-- 链接按钮 -->
   <p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0168169924003099" style="margin-right:15px;">📄 Full Paper</a>
-    <a href="/images/xumin.jpg" style="margin-right:15px;">🎞️ Video / GIF</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0168169924003016" style="margin-right:15px;">📄 Full Paper</a>
+    <a href="[/images/xumin.](https://huggingface.co/spaces/XuminGao/Aphid-Counting)" style="margin-right:15px;">🎞️ Online App</a>
   </p>
 
   </div>
@@ -38,26 +56,3 @@ redirect_from:
 
 ---
 
-
-
-### 2024
-- **[AGRaME: Any-Granularity Ranking with Multi-Vector Embeddings](https://arxiv.org/abs/2405.15028)**. Revanth Gangi Reddy, Omar Attia, **Yunyao Li**, Heng Ji, Saloni Potdar. In _EMNLP_ 2024.
-- 🏅 **[Towards Cross-Cultural Machine Translation with Retrieval-Augmented Generation from Multilingual Knowledge Graphs](https://t.co/m6Ex3bG8Vc)**. Simone Conia, Daniel Lee, Min Li, Umar Farooq Minhas, Saloni Potdar, **Yunyao Li**. In _EMNLP_ 2024. [Code](https://t.co/KcqlSFn8ih) (**Outstanding Paper Award**)
-  - Addresses ``the challenge of translating culturally-relevant named entities, challenging previously held views about how to translate named entities." 
-
-
-
-
-
-
-<!--
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
--->
