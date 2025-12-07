@@ -17,7 +17,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
   <div style="flex: 0 0 220px;">
-    <img src="/images/multicap_coverage.png" alt="Multi-CAP" style="width: 220px; border-radius: 6px;">
+    <img src="/images/Hybrid aphid counting network architecture.jpg" alt="Hybrid" style="width: 220px; border-radius: 6px;">
   </div>
 
   <!-- 右侧内容 -->
@@ -25,39 +25,39 @@ author_profile: true
 
     <!-- Title -->
     <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
-      Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments
+      Developing a hybrid convolutional neural network for automatic aphid counting in sugar beet fields
     </h3>
 
     <!-- Authors -->
     <p style="margin: 5px 0; line-height:1.4em;">
       <span style="margin-right:6px;">👤👤👤</span>
-      Zongyuan Shen, Burhanuddin Shirose, <b>Prasanna Sriganesh</b>, 
-      Bhaskar Vundurthy, Howie Choset, Matthew Travers
+      <b>Xumin Gao</b>, Wenxin Xue, Callum Lennox, Mark Stevens, Junfeng Gao
     </p>
 
     <!-- Publisher -->
     <p style="margin: 5px 0; line-height:1.4em;">
-      <span style="margin-right:6px;">📚</span> arXiv preprint arXiv:2509.14941
+      <span style="margin-right:6px;">📚</span> Computers and Electronics in Agriculture
     </p>
 
     <!-- Date + Location -->
     <p style="margin: 5px 0; line-height:1.4em;">
-      <span style="margin-right:6px;">📅</span> September 18, 2025  
+      <span style="margin-right:6px;">📅</span> May, 2024  
       &nbsp;&nbsp;&nbsp;
-      <span style="margin-right:6px;">📍</span> (no specific location listed)
+      <span style="margin-right:6px;">📍</span> 
     </p>
 
     <!-- Buttons -->
     <p style="margin: 10px 0;">
-      <a href="https://arxiv.org/abs/2509.14941" style="margin-right:15px;">📄 Full Paper</a>
-      <a href="https://www.youtube.com/watch?v=cp83SsG9wjY">🎞️ Video</a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0168169924003016" style="margin-right:15px;">📄 Full Paper</a>
+      <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a>
+      <a href="https://huggingface.co/spaces/XuminGao/Aphid-Counting">🌐 Online App</a>
     </p>
 
     <!-- Abstract collapsible -->
     <details>
       <summary><b>Show Abstract</b></summary>
       <p style="margin-top:5px;">
-        Efficient coordination of multiple robots for coverage of large, unknown environments is a significant challenge that involves minimizing the total coverage path length while reducing inter-robot conflicts. In this paper, we introduce a Multi-robot Connectivity-Aware Planner (Multi-CAP), a hierarchical coverage path planning algorithm that facilitates multi-robot coordination through a novel connectivity-aware approach. The algorithm constructs and dynamically maintains an adjacency graph that represents the environment as a set of connected subareas. Critically, we make the assumption that the environment, while unknown, is bounded. This allows for incremental refinement of the adjacency graph online to ensure its structure represents the physical layout of the space, both in observed and unobserved areas of the map as robots explore the environment. We frame the task of assigning subareas to robots as a Vehicle Routing Problem (VRP), a well-studied problem for finding optimal routes for a fleet of vehicles. This is used to compute disjoint tours that minimize redundant travel, assigning each robot a unique, non-conflicting set of subareas. Each robot then executes its assigned tour, independently adapting its coverage strategy within each subarea to minimize path length based on real-time sensor observations of the subarea. We demonstrate through simulations and multi-robot hardware experiments that Multi-CAP significantly outperforms state-of-the-art methods in key metrics, including coverage time, total path length, and path overlap ratio. Ablation studies further validate the critical role of our connectivity-aware graph and the global tour planner in achieving these performance gains.
+        Aphids can cause direct damage and indirect virus transmission to crops. Timely monitoring and control of their populations are thus critical. However, the manual counting of aphids, which is the most common practice, is labor-intensive and time-consuming. Additionally, two of the biggest challenges in aphid counting are that aphids are small objects and their density distributions are varied in different areas of the field. To address these challenges, we proposed a hybrid automatic aphid counting network architecture which integrates the detection network and the density map estimation network. When the distribution density of aphids is low, it utilizes an improved Yolov5 to count aphids. Conversely, when the distribution density of aphids is high, it switches to CSRNet to count aphids. To the best of our knowledge, this is the first framework integrating the detection network and the density map estimation network for counting tasks. Through comparison experiments of counting aphids, it verified that our proposed approach outperforms all other methods in counting aphids. It achieved the lowest MAE and RMSE values for both the standard and high-density aphid datasets: 2.93 and 4.01 (standard), and 34.19 and 38.66 (high-density), respectively. Moreover, the AP of the improved Yolov5 is 5 % higher than that of the original Yolov5. Especially for extremely small aphids and densely distributed aphids, the detection performance of the improved Yolov5 is significantly better than the original Yolov5. This work provides an effective early warning caused by aphids in sugar beet fields, offering protection for sugar beet growth and ensuring sugar beet yield. The datasets and project code are released at: https://github.com/JunfengGaolab/Counting-Aphids.
       </p>
     </details>
 
