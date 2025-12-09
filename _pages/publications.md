@@ -72,10 +72,6 @@ author_profile: true
 
 
 
-
----
-
-
 <!-- Year Divider -->
 <div style="display: flex; align-items: center; margin: 40px 0 20px 0;">
   <div style="flex: 1; height: 3px; background-color: #333;"></div>
