@@ -21,7 +21,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
  <div style="flex: 0 0 220px;">
-  <img src="/images/Robot_stirring.gif"
+  <img src="/images/Robot_stirring_2.gif"
      alt="Demo GIF"
      style="width: 600px; height: auto; border-radius: 6px;">
  </div>
