@@ -22,8 +22,6 @@ author_profile: true
   <!-- 左侧图片 -->
  <div style="flex: 0 0 220px;">
   <img src="/images/Robot_stirring.gif"
-       alt="Demo GIF"
-       style="width: 220px; border-radius: 6px;">
  </div>
 
 
@@ -57,7 +55,7 @@ author_profile: true
     <p style="margin: 10px 0;">
       <a href="https://arxiv.org/abs/2510.21732" style="margin-right:15px;">📄 Full Paper</a>
       <!-- <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a> -->
-      <a href="https://huggingface.co/spaces/XuminGao/Aphid-Counting">🎞️ Video</a>
+      <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a>
     </p>
 
     <!-- Abstract collapsible -->
@@ -124,7 +122,7 @@ author_profile: true
     <!-- Abstract collapsible -->
     <details>
       <summary><b>Show Abstract</b></summary>
-      <p style="margin-top:5px;">
+      <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
         Aphids can cause direct damage and indirect virus transmission to crops. Timely monitoring and control of their populations are thus critical. However, the manual counting of aphids, which is the most common practice, is labor-intensive and time-consuming. Additionally, two of the biggest challenges in aphid counting are that aphids are small objects and their density distributions are varied in different areas of the field. To address these challenges, we proposed a hybrid automatic aphid counting network architecture which integrates the detection network and the density map estimation network. When the distribution density of aphids is low, it utilizes an improved Yolov5 to count aphids. Conversely, when the distribution density of aphids is high, it switches to CSRNet to count aphids. To the best of our knowledge, this is the first framework integrating the detection network and the density map estimation network for counting tasks. Through comparison experiments of counting aphids, it verified that our proposed approach outperforms all other methods in counting aphids. It achieved the lowest MAE and RMSE values for both the standard and high-density aphid datasets: 2.93 and 4.01 (standard), and 34.19 and 38.66 (high-density), respectively. Moreover, the AP of the improved Yolov5 is 5 % higher than that of the original Yolov5. Especially for extremely small aphids and densely distributed aphids, the detection performance of the improved Yolov5 is significantly better than the original Yolov5. This work provides an effective early warning caused by aphids in sugar beet fields, offering protection for sugar beet growth and ensuring sugar beet yield. The datasets and project code are released at: https://github.com/JunfengGaolab/Counting-Aphids.
       </p>
     </details>
