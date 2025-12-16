@@ -22,11 +22,9 @@ author_profile: true
   <!-- 左侧图片 -->
  <div style="flex: 0 0 220px;">
   <img src="/images/Robot_stirring_2.gif"
-     alt="Demo GIF"
-     style="width: 600px; height: auto; border-radius: 6px;">
  </div>
 
-
+ 
   <!-- 右侧内容 -->
   <div style="flex: 1;">
 
@@ -72,6 +70,64 @@ author_profile: true
 </div>
 
 ---
+
+
+---
+
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+
+  <!-- 左侧图片 -->
+ <div style="flex: 0 0 220px;">
+  <img src="/images/counting_confidence.jpg"
+ </div>
+
+ 
+  <!-- 右侧内容 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
+      Counting with Confidence: Accurate Pest Monitoring in Water Traps
+    </h3>
+
+    <!-- Authors -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">👤👤👤</span>
+      <b>Xumin Gao</b>, Mark Stevens, Grzegorz Cielniak
+    </p>
+
+    <!-- Publisher -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📚</span> AGRICONTROL 2025
+    </p>
+
+    <!-- Date + Location -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📅</span> September, 2025  
+      &nbsp;&nbsp;&nbsp;
+      <span style="margin-right:6px;">📍</span> 
+    </p>
+
+    <!-- Buttons -->
+    <p style="margin: 10px 0;">
+      <a href="https://www.sciencedirect.com/science/article/pii/S2405896325024917" style="margin-right:15px;">📄 Full Paper</a>
+      <!-- <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a> -->
+      <!-- <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a> -->
+    </p>
+
+    <!-- Abstract collapsible -->
+    <details>
+      <summary><b>Show Abstract</b></summary>
+      <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
+        Accurate pest population monitoring and tracking their dynamic changes are crucial for precision agriculture decision-making. A common limitation in existing vision-based automatic pest counting research is that models are typically evaluated on datasets with ground truth but deployed in real-world scenarios without assessing the reliability of counting results due to the lack of ground truth. To this end, this paper proposed a method for comprehensively evaluating pest counting confidence in the image, based on information related to counting results and external environmental conditions. First, a pest detection network is used for pest detection and counting, extracting counting result-related information. Then, the pest images undergo image quality assessment, image complexity assessment, and pest distribution uniformity assessment. And the changes in image clarity caused by stirring during image acquisition are quantified by calculating the average gradient magnitude. Notably, we designed a hypothesis-driven multi-factor sensitivity analysis method to select the optimal image quality assessment and image complexity assessment methods. And we proposed an adaptive DBSCAN clustering algorithm for pest distribution uniformity assessment. Finally, the obtained information related to counting results and external environmental conditions is input into a regression model for prediction, resulting in the final pest counting confidence. To the best of our knowledge, this is the first study dedicated to comprehensively evaluating counting confidence in counting tasks, and quantifying the relationship between influencing factors and counting confidence through a model. Experimental results show our method reduces MSE by 31.7% and improves R² by 15.2% on the pest counting confidence test set, compared to the baseline built primarily on information related to counting results.
+      </p>
+    </details>
+
+  </div>
+</div>
+
+---
+
 
 
 
