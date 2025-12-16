@@ -20,8 +20,8 @@ author_profile: true
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
- <div style="flex: 0 0 220px;">
-  <img src="/images/Robot_stirring_2.gif"
+ <div style="flex: 0 0 300px;">
+  <img src="/images/Robot_stirring_2.gif">
  </div>
 
  
@@ -72,13 +72,13 @@ author_profile: true
 ---
 
 
-
+---
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
- <div style="flex: 0 0 220px;">
-  <img src="/images/counting_confidence.jpg"
+ <div style="flex: 0 0 300px;">
+  <img src="/images/counting_confidence.jpg">
  </div>
 
  
@@ -140,7 +140,7 @@ author_profile: true
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
-  <div style="flex: 0 0 220px;">
+  <div style="flex: 0 0 300px;">
     <img src="/images/Hybrid aphid counting network architecture.jpg" alt="Hybrid" style="width: 220px; border-radius: 6px;">
   </div>
 
