@@ -103,9 +103,9 @@ author_profile: true
 
     <!-- Date + Location -->
     <p style="margin: 5px 0; line-height:1.4em;">
-      <span style="margin-right:6px;">📅</span> September, 2025  
+      <span style="margin-right:6px;">📅</span> August, 2025  
       &nbsp;&nbsp;&nbsp;
-      <span style="margin-right:6px;">📍</span> 
+      <span style="margin-right:6px;">📍</span> Davis, California, U.S.A
     </p>
 
     <!-- Buttons -->
@@ -136,6 +136,64 @@ author_profile: true
   <div style="flex: 1; height: 3px; background-color: #333;"></div>
   <div style="padding-left: 12px; font-size: 1.4em; font-weight: 700;">2024</div>
 </div>
+
+
+---
+
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+
+  <!-- 左侧图片 -->
+ <div style="flex: 0 0 300px;">
+  <img src="/images/ICP42024_VAIB.jpg">
+ </div>
+
+ 
+  <!-- 右侧内容 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
+      Interactive Image-Based Aphid Counting in Yellow Water Traps under Stirring Actions
+    </h3>
+
+    <!-- Authors -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">👤👤👤</span>
+      <b>Xumin Gao</b>, Mark Stevens, Grzegorz Cielniak
+    </p>
+
+    <!-- Publisher -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📚</span> VAIB Workshop at ICPR 2024
+    </p>
+
+    <!-- Date + Location -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📅</span> December, 2024  
+      &nbsp;&nbsp;&nbsp;
+      <span style="margin-right:6px;">📍</span> Kolkata, India
+    </p>
+
+    <!-- Buttons -->
+    <p style="margin: 10px 0;">
+      <a href="https://homepages.inf.ed.ac.uk/rbf/VAIB24PAPERS/vaib24xg.pdf" style="margin-right:15px;">📄 Full Paper</a>
+      <!-- <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a> -->
+      <!-- <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a> -->
+    </p>
+
+    <!-- Abstract collapsible -->
+    <details>
+      <summary><b>Show Abstract</b></summary>
+      <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
+        The current vision-based aphid counting methods in water traps suffer from undercounts caused by occlusions and low visibility arising from dense aggregation of insects and other objects. To address this problem, we propose a novel aphid counting method through interactive stirring actions. We use interactive stirring to alter the distribution of aphids in the yellow water trap and capture a sequence of images which are then used for aphid detection and counting through an optimized small object detection network based on Yolov5. We also propose a counting confidence evaluation system to evaluate the confidence of count-ing results. The final counting result is a weighted sum of the counting results from all sequence images based on the counting confidence. Experimental results show that our proposed aphid detection network significantly outperforms the original Yolov5, with improvements of 33.9% in AP@0.5 and 26.9% in AP@[0.5:0.95] on the aphid test set. In addition, the aphid counting test results using our proposed counting confidence evaluation system show significant improvements over the static counting method, closely aligning with manual counting results. 
+      </p>
+    </details>
+
+  </div>
+</div>
+
+---
+
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
@@ -189,6 +247,9 @@ author_profile: true
 </div>
 
 ---
+
+
+
 
 
 
