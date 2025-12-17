@@ -113,6 +113,8 @@ author_profile: true
       <a href="https://www.sciencedirect.com/science/article/pii/S2405896325024917" style="margin-right:15px;">📄 Full Paper</a>
       <!-- <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a> -->
       <!-- <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a> -->
+      <a href="/files/Counting with Confidence Accurate Pest Monitoring in Water Traps.pdf" target="_blank">📑 Presentation</a>
+
     </p>
 
     <!-- Abstract collapsible -->
@@ -179,6 +181,7 @@ author_profile: true
       <a href="https://homepages.inf.ed.ac.uk/rbf/VAIB24PAPERS/vaib24xg.pdf" style="margin-right:15px;">📄 Full Paper</a>
       <!-- <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a> -->
       <!-- <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a> -->
+      <a href="/files/Interactive Image-Based Aphid Counting in Yellow Water Traps under Stirring Actions.pdf" target="_blank">📑 Presentation</a>
     </p>
 
     <!-- Abstract collapsible -->
