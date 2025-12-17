@@ -128,6 +128,63 @@ author_profile: true
   </div>
 </div>
 
+
+---
+
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+
+  <!-- 左侧图片 -->
+ <div style="flex: 0 0 300px;">
+  <img src="/images/HRIN.png">
+ </div>
+
+ 
+  <!-- 右侧内容 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
+      The Human-Robot Interactive Reinforcement Learning for Robot Navigation of The Factory Transportation System in Grid World Environment
+    </h3>
+
+    <!-- Authors -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">👤👤👤</span>
+      <b>Xumin Gao</b>
+    </p>
+
+    <!-- Publisher -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📚</span> TechRxiv preprint
+    </p>
+
+    <!-- Date + Location -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📅</span> 2025 （research completed in 2022） 
+      &nbsp;&nbsp;&nbsp;
+      <span style="margin-right:6px;">📍</span> 
+    </p>
+
+    <!-- Buttons -->
+    <p style="margin: 10px 0;">
+      <a href="https://www.techrxiv.org/users/985215/articles/1350678-the-human-robot-interactive-reinforcement-learning-for-robot-navigation-of-the-factory-transportation-system-in-grid-world-environment" style="margin-right:15px;">📄 Full Paper</a>
+      <a href="https://github.com/XuminGaoGithub/Human-Robot-Interactive-Reinforcement-Learning-for-Factory-Robot-Navigation" style="margin-right:15px;">💻 Code</a>
+      <!-- <a href="https://www.youtube.com/watch?v=vtq7Nuemw4Q&t=108s">🎞️ Video</a> -->
+    </p>
+
+    <!-- Abstract collapsible -->
+    <details>
+      <summary><b>Show Abstract</b></summary>
+      <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
+        In order to improve the learning ability of robot in factory transportation system and speed up the learning cycle for robots to deal with the changing environment, on the basis of investigating the current research work of robot navigation in factory transportation system, this paper designs three different interactive reinforcement learning (IRL) algorithms and apply them to the navigation task for robots in factory transportation system. We verify the designed algorithms in the discrete grid world. From the experiment results, we can see that the third designed IRL algorithm using modified exploration strategy with the human suggestion and the feedback achieves the best effect, the success rate of completing the task is 90%, and the learning cycle is between other two algorithms. The project code is released at: https://github.com/XuminGaoGithub/Human-Robot-Interactive-Reinforcement-Learning-for-Factory-Robot-Navigation. 
+      </p>
+    </details>
+
+  </div>
+</div>
+
+---
+
 ---
 
 
@@ -283,7 +340,7 @@ author_profile: true
 
     <!-- Date + Location -->
     <p style="margin: 5px 0; line-height:1.4em;">
-      <span style="margin-right:6px;">📅</span> 2024  
+      <span style="margin-right:6px;">📅</span> 2024 （research completed in 2022） 
       &nbsp;&nbsp;&nbsp;
       <span style="margin-right:6px;">📍</span> 
     </p>
