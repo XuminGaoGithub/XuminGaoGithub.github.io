@@ -379,7 +379,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
  <div style="flex: 0 0 300px;">
-  <img src="/images/MMUU-Net.png">
+  <img src="/images/S-SSD.png">
  </div>
 
  
@@ -442,7 +442,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
  <div style="flex: 0 0 300px;">
-  <img src="/images/MMUUNET.png">
+  <img src="/images/semantic_map.png">
  </div>
 
  
@@ -475,7 +475,7 @@ author_profile: true
     <!-- Buttons -->
     <p style="margin: 10px 0;">
       <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1651/1/012142/meta" style="margin-right:15px;">📄 Full Paper</a>
-      <a href="https://github.com/XuminGaoGithub/S-SSD" style="margin-right:15px;">💻 Code</a>
+      <!-- <a href="https://github.com/XuminGaoGithub/S-SSD" style="margin-right:15px;">💻 Code</a> -->
       <a href="https://www.youtube.com/watch?v=mzSDeYdyUKI">🎞️ Video</a>
     </p>
 
@@ -496,7 +496,7 @@ author_profile: true
 
   <!-- 左侧图片 -->
  <div style="flex: 0 0 300px;">
-  <img src="/images/semantic_map.png">
+  <img src="/images/MMUUNET.png">
  </div>
 
  
