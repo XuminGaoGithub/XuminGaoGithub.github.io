@@ -547,45 +547,75 @@ author_profile: true
 ---
 
 
-
-
 ---
 
-### **Evaluation and Incident Prevention in an Enterprise AI Assistant**  
-Akash V. Maharaj, David Arbour, Daniel Lee, Uttaran Bhattacharya, Anup Rao, Austin Zane, Kun Qian, **Yunyao Li**  
-_IAAI 2025_  
-🏅 **DSRI AI Incidents and Best Practices Paper Award**  
-[🔗 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35161)  
-[🔗 Blog](https://blog.developer.adobe.com/raising-the-bar-for-ai-assistant-in-adobe-experience-platform-f45dda4b2783)
+<!-- Year Divider -->
+<div style="display: flex; align-items: center; margin: 40px 0 20px 0;">
+  <div style="flex: 1; height: 3px; background-color: #333;"></div>
+  <div style="padding-left: 12px; font-size: 1.4em; font-weight: 700;">2019</div>
+</div>
 
----
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
-## 📝 2024
+  <!-- 左侧图片 -->
+ <div style="flex: 0 0 300px;">
+  <img src="/images/extracing line feature.png">
+ </div>
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-
-  <!-- Left image -->
-  <div style="flex: 0 0 220px;">
-    <img src="/images/xumin.jpg" alt="Aphid CNN Project" style="width: 220px; border-radius: 6px;">
-  </div>
-
-  <!-- Right text -->
+ 
+  <!-- 右侧内容 -->
   <div style="flex: 1;">
 
-  ### **Developing a Hybrid Convolutional Neural Network for Automatic Aphid Counting in Sugar Beet Fields**
-  **Xumin Gao**, Wei Xue, Chris Lennox, Melissa Stevens, Junfeng Gao  
-  *Computers and Electronics in Agriculture*, Vol. 220, 2024, 108910  
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
+      An algorithm of Extracting Line Feature of Laser Radar Combined with SVM 
+    </h3>
 
-  <p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0168169924003016" style="margin-right:15px;">📄 Full Paper</a>
-    <a href="https://huggingface.co/spaces/XuminGao/Aphid-Counting" style="margin-right:15px;">🎞️ Online App</a>
-  </p>
+    <!-- Authors -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">👤👤👤</span>
+      <b>Xumin Gao</b>, Lin Jiang , Han Wang, Xingyu Guang
+    </p>
+
+    <!-- Publisher -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📚</span> Computer Engineering and Design
+    </p>
+
+    <!-- Date + Location -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📅</span> 2019  
+      &nbsp;&nbsp;&nbsp;
+      <span style="margin-right:6px;">📍</span> 
+    </p>
+
+    <!-- Buttons -->
+    <p style="margin: 10px 0;">
+      <a href="https://xueshu.baidu.com/ndscholar/browse/detail?paperid=16760eu011440cd03c1b0ce0ax126705&site=xueshu_se" style="margin-right:15px;">📄 Full Paper</a>
+      <a href="https://github.com/XuminGaoGithub/An-algorithm-of-extracting-line-feature-of-laser-radar-combined-with-SVM" style="margin-right:15px;">💻 Code</a>
+      <!-- <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a> -->
+    </p>
+
+    <!-- Abstract collapsible -->
+    <details>
+      <summary><b>Show Abstract</b></summary>
+      <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
+        Aiming at the phenomenon that the fixed segmentation threshold leads to under segmentation and over segmentation in extracting line feature of laser radar data using the IEPF algorithm,a separate and merged extraction algorithm of line feature combined with support vector machine was proposed. In separate stage,the IEPF algorithm was used to segment the data preliminarily. In the merged stage,the threshold value was adjusted to eliminate the line segments of under segmentation as far as possible, and the three features from over segmented line segments and normal line segments which included the adjacent degree, the collinear degree and the overlap degree were extracted respectively as feature vectors to train the SVM model. The SVM model was applied to the actual test, and the classification results which were over segmented line segments were merged. Experimental results show that the proposed algorithm effectively eliminates most of the over segmented line segments and under segmented line segments produced by line segment extraction using IEPF algorithm.
+      </p>
+    </details>
 
   </div>
-
 </div>
 
 ---
+
+
+
+
+
+
+
+
 
 
 
