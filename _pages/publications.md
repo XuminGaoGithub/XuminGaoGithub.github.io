@@ -252,6 +252,63 @@ author_profile: true
 ---
 
 
+---
+
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+
+  <!-- 左侧图片 -->
+ <div style="flex: 0 0 300px;">
+  <img src="/images/GrapCounting.gif">
+ </div>
+
+ 
+  <!-- 右侧内容 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
+      Automatic Detection, Positioning and Counting of Grape Bunches Using Robots
+    </h3>
+
+    <!-- Authors -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">👤👤👤</span>
+      <b>Xumin Gao</b>
+    </p>
+
+    <!-- Publisher -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📚</span> arXiv preprint arXiv:2412.10464
+    </p>
+
+    <!-- Date + Location -->
+    <p style="margin: 5px 0; line-height:1.4em;">
+      <span style="margin-right:6px;">📅</span> 2024  
+      &nbsp;&nbsp;&nbsp;
+      <span style="margin-right:6px;">📍</span> 
+    </p>
+
+    <!-- Buttons -->
+    <p style="margin: 10px 0;">
+      <a href="https://arxiv.org/abs/2412.10464" style="margin-right:15px;">📄 Full Paper</a>
+      <a href="https://github.com/XuminGaoGithub/Grape_bunches_count_using_robots" style="margin-right:15px;">💻 Code</a>
+      <a href="https://www.youtube.com/watch?v=vtq7Nuemw4Q&t=108s">🎞️ Video</a>
+    </p>
+
+    <!-- Abstract collapsible -->
+    <details>
+      <summary><b>Show Abstract</b></summary>
+      <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
+        In order to promote agricultural automatic picking and yield estimation technology, this project designs a set of automatic detection, positioning and counting algorithms for grape bunches, and applies it to agricultural robots. The Yolov3 detection network is used to realize the accurate detection of grape bunches, and the local tracking algorithm is added to eliminate relocation. Then it obtains the accurate 3D spatial position of the central points of grape bunches using the depth distance and the spatial restriction method. Finally, the counting of grape bunches is completed. It is verified using the agricultural robot in the simulated vineyard environment. The project code is released at: https://github.com/XuminGaoGithub/Grape_bunches_count_using_robots. 
+      </p>
+    </details>
+
+  </div>
+</div>
+
+---
+
+
 
 
 
