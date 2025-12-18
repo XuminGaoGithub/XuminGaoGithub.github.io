@@ -7,61 +7,54 @@ entries_layout: grid
 author_profile: true
 ---
 
-Here you can find my research projects.
-
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+This list showcases some of the selected research, coursework, and independent projects I have worked on throughout my career, which are not included in the [**publications section**](https://xumingaogithub.github.io/publications/).
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  <!-- 左侧图片 -->
+  <div style="flex: 0 0 300px;">
+    <img src="/images/HRIN.png"
+         alt="UAV Path Planning"
+         style="width: 300px; border-radius: 6px;">
+  </div>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  <!-- 右侧文字 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:5px;">
+      UAV Path Planning for Landing and Coverage in Dense Forests
+    </h3>
+
+    <!-- Date -->
+    <p style="margin: 0; color: #666;">
+      Nov 2022
+    </p>
+
+    <!-- Description -->
+    <p style="margin-top:10px;">
+      In this work, we developed and implemented a planning strategy for UAVs
+      to plan an emergency landing on one of landing zones in an environment
+      which will maximize coverage within battery life constraints.
+    </p>
+
+    <!-- Links -->
+    <p style="margin-top:10px;">
+      <a href="/projects/publications/" style="margin-right:20px;">
+        📖 Read More
+      </a>
+      <a href="https://www.youtube.com/watch?v=xgqmUpdp-0A&t=11s" target="_blank">
+        🎞️ Video
+      </a>
+    </p>
+
+  </div>
+</div>
+
+
+
