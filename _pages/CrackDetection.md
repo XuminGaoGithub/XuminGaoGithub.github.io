@@ -56,18 +56,22 @@ achieved approximately 10% better coverage. The planner also adapts when battery
 life drops mid-flight, as demonstrated in the video below.
 </p>
 
-<div style="margin: 35px 0; text-align: center;">
+
+<div style="margin: 35px 0;">
   <iframe
-    width="640"
-    height="480"
     src="https://www.youtube.com/embed/xgqmUpdp-0A"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
-    style="max-width:80%; border-radius:8px;">
+    style="
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
+      border-radius: 8px;
+    ">
   </iframe>
 </div>
+
 
 
 
