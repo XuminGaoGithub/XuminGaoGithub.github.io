@@ -65,12 +65,13 @@ This list showcases some of the selected research, coursework, and independent p
    style="
      display: inline-block;
      margin-right: 12px;
-     padding: 6px 14px;
+     padding: 10px 22px;
      background-color: #000;
      color: #fff;
      text-decoration: none;
      border-radius: 6px;
-     font-size: 0.9em;
+     font-size: 1.15em;
+     font-weight: 700;
    ">
   📖 Read More
 </a>
@@ -79,12 +80,13 @@ This list showcases some of the selected research, coursework, and independent p
    target="_blank"
    style="
      display: inline-block;
-     padding: 6px 14px;
+     padding: 10px 22px;
      background-color: #000;
      color: #fff;
      text-decoration: none;
-     border-radius: 6px;
-     font-size: 0.9em;
+     border-radius: 8px;
+     font-size: 1.15em;
+     font-weight: 700;
    ">
   🎞️ Video
 </a>
