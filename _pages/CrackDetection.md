@@ -15,7 +15,7 @@ author_profile: true
   </span>
 </p>
 
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: justify;">
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
   Unmanned Aerial Vehicles (UAVs) have constraints on battery life that affect their
   time-of-flight. This is especially important for coverage applications in forests,
   where a drone might not be recoverable from failure. In this work, we developed
@@ -24,7 +24,7 @@ author_profile: true
   life constraints.
 </p>
 
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: justify;">
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
   We proposed a system consisting of two planners: a coverage planner and an emergency
   planner, integrated within a behavior executive that intelligently switches modes
   based on the UAV’s remaining battery life. The landing planner was based on a 3D A*
@@ -37,19 +37,18 @@ author_profile: true
 </p>
 
 
-<div style="display: flex; justify-content: center; margin: 35px 0;">
+<div style="display:flex; justify-content:center; margin:35px 0;">
   <iframe
+    width="720"
+    height="405"
     src="https://www.youtube.com/embed/xgqmUpdp-0A"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
-    style="
-      width: 80%;
-      max-width: 800px;
-      aspect-ratio: 16 / 9;
-      border-radius: 8px;
-      display: block;
-    ">
+    style="border-radius:8px;">
   </iframe>
 </div>
+
 
 
 
