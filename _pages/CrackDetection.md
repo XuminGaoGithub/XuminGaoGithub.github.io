@@ -30,17 +30,31 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
   flex-wrap: wrap;
   margin: 20px 0;
 ">
+  <!-- 左图 -->
   <img
     src="/images/Crack_drone.jpg"
     alt="Crack Detection UAV"
-    style="width: 320px; max-width: 100%; border-radius:6px;"
+    style="
+      height: 220px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    "
   />
+
+  <!-- 右图：更宽，但同样高度 -->
   <img
     src="/images/Crack_framework.jpg"
     alt="System Framework"
-    style="width: 320px; max-width: 100%; border-radius:6px;"
+    style="
+      height: 220px;
+      width: 380px;
+      object-fit: cover;
+      border-radius: 6px;
+    "
   />
 </div>
+
 
 
 
