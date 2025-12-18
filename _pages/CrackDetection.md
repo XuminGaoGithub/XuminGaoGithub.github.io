@@ -31,7 +31,7 @@ algorithm that also considered covered area as part of the cost function. Code a
 <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
    target="_blank"
    style="color:#1a0dab; text-decoration:underline;">
-  gitHub
+  github
 </a>.
 </p>
 
