@@ -15,7 +15,7 @@ author_profile: true
   </span>
 </p>
 
-<p>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
 Unmanned Aerial Vehicles (UAVs) have constraints on battery life that affect their
 time-of-flight. This is especially important for coverage applications in forests,
 where a drone might not be recoverable from failure. In this work, we developed
@@ -24,7 +24,7 @@ of landing zones in an environment which will maximize coverage within battery
 life constraints.
 </p>
 
-<p>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
 We proposed a system consisting of two planners: a coverage planner and an emergency
 planner, integrated within a behavior executive that intelligently switches modes
 based on the UAV’s remaining battery life. The landing planner was based on a 3D A*
@@ -35,8 +35,6 @@ algorithm that also considered covered area as part of the cost function. Code a
   github.
 </a>
 </p>
-
-
 
 
 <div style="margin: 35px 0;">
