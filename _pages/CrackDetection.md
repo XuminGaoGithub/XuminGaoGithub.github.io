@@ -33,8 +33,8 @@ The following presents the actual testing results. And the original source code 
   <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
-    github
-  </a>.
+    github.
+  </a>
 </p>
 
 
