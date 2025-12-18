@@ -75,7 +75,7 @@ This list showcases some of the selected research, coursework, and independent p
   📖 Read More
 </a>
 
-<a href="https://www.youtube.com/watch?v=xgqmUpdp-0A&t=11s"
+<a href="https://www.youtube.com/watch?v=xgqmUpdp-0A"
    target="_blank"
    style="
      display: inline-block;
