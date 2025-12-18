@@ -33,7 +33,12 @@ life constraints.
 We proposed a system consisting of two planners: a coverage planner and an emergency
 planner, integrated within a behavior executive that intelligently switches modes
 based on the UAV’s remaining battery life. The landing planner was based on a 3D A*
-algorithm that also considered covered area as part of the cost function.
+algorithm that also considered covered area as part of the cost function. Code available on
+<a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
+   target="_blank"
+   style="color:#1a0dab; text-decoration:underline;">
+  GitHub
+</a>.
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 25px 0;">
@@ -60,7 +65,7 @@ life drops mid-flight, as demonstrated in the video below.
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/watch?v=xgqmUpdp-0A"
+    src="https://www.youtube.com/embed/xgqmUpdp-0A"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
