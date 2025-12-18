@@ -31,12 +31,12 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
   margin: 20px 0;
 ">
   <img
-    src="/images/Crack_drone"
+    src="/images/Crack_drone.jpg"
     alt="Crack Detection UAV"
     style="width: 320px; max-width: 100%; border-radius:6px;"
   />
   <img
-    src="/images/Crack_framework"
+    src="/images/Crack_framework.jpg"
     alt="System Framework"
     style="width: 320px; max-width: 100%; border-radius:6px;"
   />
@@ -50,7 +50,7 @@ In terms of image processing and crack recognition, OpenCV is employed to perfor
 
 <div style="text-align: center; margin: 25px 0;">
   <img
-    src="/images/Crack_Rec"
+    src="/images/Crack_Rec.png"
     alt="Crack Recognition Results"
     style="width: 520px; max-width: 100%; border-radius:6px;"
   />
@@ -71,7 +71,7 @@ The following video presents the actual testing results. And the original source
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/embed/xgqmUpdp-0A"
+    src="https://www.youtube.com/embed/xgqmUpdp-0A?start=126&end=141"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
