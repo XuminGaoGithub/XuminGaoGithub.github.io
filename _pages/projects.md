@@ -62,12 +62,12 @@ This list showcases some of the selected research, coursework, and independent p
     <!-- Links -->
     <p style="margin-top: 10px;">
       <a href="/publications/"
-         style="display:inline-block; margin-right:12px; padding:8px 18px; background-color:#000; color:#fff; text-decoration:none; border-radius:6px; font-size:1.15em; font-weight:300;">
+         style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         📖 Read More
       </a>
       <a href="https://www.youtube.com/watch?v=xgqmUpdp-0A"
          target="_blank"
-         style="display:inline-block; padding:8px 18px; background-color:#000; color:#fff; text-decoration:none; border-radius:6px; font-size:1.15em; font-weight:300;">
+         style="display:inline-block; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         🎞️ Video
       </a>
     </p>
