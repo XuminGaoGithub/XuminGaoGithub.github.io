@@ -36,25 +36,7 @@ algorithm that also considered covered area as part of the cost function. Code a
 </a>
 </p>
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 25px 0;">
-  <img
-    src="/images/S-SSD.png"
-    alt="Simulation Environment"
-    style="width: 340px; height: auto; border-radius:6px;"
-  />
-  <img
-    src="/images/S-SSD.png"
-    alt="System Architecture"
-    style="width: 300px; height: auto; border-radius:6px;"
-  />
-</div>
 
-<p>
-Through simulations, our proposed planning system demonstrated an increase in
-coverage compared to a naive closest-landing-zone planner. On average, the system
-achieved approximately 10% better coverage. The planner also adapts when battery
-life drops mid-flight, as demonstrated in the video below.
-</p>
 
 
 <div style="margin: 35px 0;">
