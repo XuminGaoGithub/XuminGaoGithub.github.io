@@ -24,9 +24,18 @@ This list showcases some of the selected research, coursework, and independent p
 
   <!-- 左侧图片 -->
   <div style="flex: 0 0 300px;">
-    <img src="/images/HRIN.png"
-         alt="UAV Path Planning"
-         style="width: 300px; border-radius: 6px;">
+    
+  <img
+  src="/images/HRIN.png"
+  alt="Project image"
+  style="
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  ">
+
+    
   </div>
 
   <!-- 右侧文字 -->
@@ -52,16 +61,41 @@ This list showcases some of the selected research, coursework, and independent p
 
     <!-- Links -->
     <p style="margin-top:10px;">
-      <a href="/publications/" style="margin-right:20px;">
-        📖 Read More
-      </a>
-      <a href="https://www.youtube.com/watch?v=xgqmUpdp-0A&t=11s" target="_blank">
-        🎞️ Video
-      </a>
+      <a href="/publications/"
+   style="
+     display: inline-block;
+     margin-right: 12px;
+     padding: 6px 14px;
+     background-color: #000;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 6px;
+     font-size: 0.9em;
+   ">
+  📖 Read More
+</a>
+
+<a href="https://www.youtube.com/watch?v=xgqmUpdp-0A&t=11s"
+   target="_blank"
+   style="
+     display: inline-block;
+     padding: 6px 14px;
+     background-color: #000;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 6px;
+     font-size: 0.9em;
+   ">
+  🎞️ Video
+</a>
+
     </p>
 
   </div>
 </div>
+
+
+
 
 
 
