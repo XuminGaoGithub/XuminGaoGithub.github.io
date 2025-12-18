@@ -32,8 +32,8 @@ algorithm that also considered covered area as part of the cost function. Code a
 <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
    target="_blank"
    style="color:#1a0dab; text-decoration:underline;">
-  github
-</a>.
+  github.
+</a>
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 25px 0;">
@@ -65,7 +65,7 @@ life drops mid-flight, as demonstrated in the video below.
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
-    style="max-width:100%; border-radius:8px;">
+    style="max-width:80%; border-radius:8px;">
   </iframe>
 </div>
 ---
