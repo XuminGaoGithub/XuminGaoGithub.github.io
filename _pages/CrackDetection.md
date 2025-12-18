@@ -5,6 +5,7 @@ permalink: /CrackDetection/
 author_profile: true
 ---
 
+---
 <p style="margin: 0 0 18px 0; color:#666; font-size:0.95em;">
   <span style="margin-right:20px;">
     📅 Nov 2017
