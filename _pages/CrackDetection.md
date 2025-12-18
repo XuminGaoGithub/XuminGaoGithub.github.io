@@ -1,15 +1,9 @@
 ---
 layout: archive
-title: "Crack Detection Project"
+title: "Crack Detection System Based on Drone Vision"
 permalink: /CrackDetection/
 author_profile: true
 ---
-
-
----
-<h2 style="margin-bottom:6px;">
-  Crack Detection System Based on Drone Vision
-</h2>
 
 <p style="margin: 0 0 18px 0; color:#666; font-size:0.95em;">
   <span style="margin-right:20px;">
@@ -37,7 +31,7 @@ algorithm that also considered covered area as part of the cost function. Code a
 <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
    target="_blank"
    style="color:#1a0dab; text-decoration:underline;">
-  GitHub
+  gitHub
 </a>.
 </p>
 
@@ -74,12 +68,7 @@ life drops mid-flight, as demonstrated in the video below.
   </iframe>
 </div>
 
-<p style="text-align:center; margin-top:20px;">
-  🔗 Code available on
-  <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision" target="_blank">
-    GitHub
-  </a>
-</p>
+
 
 
 
