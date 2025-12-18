@@ -16,7 +16,7 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-  This project focuses on the automated detection of infrastructure cracks and develops a crack detection and recognition system based on unmanned aerial vehicles (UAVs) and computer vision.
+To meet the demand for automated infrastructure crack inspection, this project develops a crack detection and recognition system integrating UAV platforms and computer vision techniques.
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
