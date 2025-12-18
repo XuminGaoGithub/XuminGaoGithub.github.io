@@ -58,8 +58,8 @@ life drops mid-flight, as demonstrated in the video below.
 
 <div style="margin: 35px 0; text-align: center;">
   <iframe
-    width="720"
-    height="405"
+    width="640"
+    height="480"
     src="https://www.youtube.com/embed/xgqmUpdp-0A"
     title="YouTube video player"
     frameborder="0"
@@ -68,6 +68,7 @@ life drops mid-flight, as demonstrated in the video below.
     style="max-width:100%; border-radius:8px;">
   </iframe>
 </div>
+---
 
 
 
