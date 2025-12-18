@@ -50,7 +50,7 @@ In terms of image processing and crack recognition, OpenCV is employed to perfor
 
 <div style="text-align: center; margin: 25px 0;">
   <img
-    src="/images/Crack_Rec.png"
+    src="/images/CrackRec.png"
     alt="Crack Recognition Results"
     style="width: 520px; max-width: 100%; border-radius:6px;"
   />
