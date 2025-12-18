@@ -1,8 +1,10 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Crack Detection Project"
+permalink: /CrackDetection/
 author_profile: true
+---
+
 ---
 
 
