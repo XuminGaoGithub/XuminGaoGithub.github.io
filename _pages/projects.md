@@ -26,7 +26,7 @@ This list showcases some of the selected research, coursework, and independent p
   <div style="flex: 0 0 300px;">
     
   <img
-  src="/images/HRIN.png"
+  src="/images/Crack_Detection_System.png"
   alt="Project image"
   style="
     width: 220px;
@@ -43,20 +43,18 @@ This list showcases some of the selected research, coursework, and independent p
 
     <!-- Title -->
     <h3 style="margin-top:0; margin-bottom:5px;">
-      UAV Path Planning for Landing and Coverage in Dense Forests
+      Crack Detection System Based on Drone Vision
     </h3>
 
     <!-- Date -->
     <p style="margin: 0; color: #666;">
-      <span style="margin-right:6px;">📅</span> September, 2025
+      <span style="margin-right:6px;">📅</span> 2017
     </p>
 
 
     <!-- Description -->
-    <p style="margin-top:10px;">
-      In this work, we developed and implemented a planning strategy for UAVs
-      to plan an emergency landing on one of landing zones in an environment
-      which will maximize coverage within battery life constraints.
+    <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+      In this work, we developed and implemented a UAV-based crack detection and recognition system that automatically detects, classifies, and quantitatively measures infrastructure cracks using image processing, SVM classification, and distance-based geometric measurement.
     </p>
 
     <!-- Links -->
@@ -65,7 +63,7 @@ This list showcases some of the selected research, coursework, and independent p
          style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         📖 Read More
       </a>
-      <a href="https://www.youtube.com/watch?v=xgqmUpdp-0A"
+      <a href="https://youtu.be/bnexRIGOKMY"
          target="_blank"
          style="display:inline-block; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         🎞️ Video
