@@ -26,34 +26,53 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
 <div style="
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
-  flex-wrap: wrap;
   margin: 20px 0;
 ">
-  <!-- 左图 -->
-  <img
-    src="/images/Crack_drone.jpg"
-    alt="Crack Detection UAV"
-    style="
-      height: 220px;
-      width: 300px;
-      object-fit: cover;
-      border-radius: 6px;
-    "
-  />
 
-  <!-- 右图：更宽，但同样高度 -->
-  <img
-    src="/images/Crack_framework.jpg"
-    alt="System Framework"
-    style="
-      height: 220px;
-      width: 380px;
-      object-fit: cover;
-      border-radius: 6px;
-    "
-  />
+  <!-- 左图容器（稍窄） -->
+  <div style="
+    width: 300px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <img
+      src="/images/Crack_drone.jpg"
+      alt="Crack Detection UAV"
+      style="
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 6px;
+      "
+    />
+  </div>
+
+  <!-- 右图容器（更宽） -->
+  <div style="
+    width: 420px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ">
+    <img
+      src="/images/Crack_framework.jpg"
+      alt="System Framework"
+      style="
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 6px;
+      "
+    />
+  </div>
+
 </div>
+
 
 
 
@@ -85,7 +104,7 @@ The following video presents the actual testing results. And the original source
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/embed/xgqmUpdp-0A?start=126&end=141"
+    src="https://www.youtube.com/embed/bnexRIGOKMY"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
