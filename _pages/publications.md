@@ -7,6 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
+{% if site.author.googlescholar %}
+You can also find my articles on
+[my Google Scholar profile]({{ https://scholar.google.com/citations?user=bvDizmUAAAAJ&hl=en }}).
+{% endif %}
+
 
 
 ---
