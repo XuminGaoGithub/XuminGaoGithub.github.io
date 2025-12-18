@@ -8,7 +8,7 @@ author_profile: true
 ---
 <p style="margin: 0 0 18px 0; color:#666; font-size:0.95em;">
   <span style="margin-right:20px;">
-    📅 Nov 2017
+    📅 2017
   </span>
   <span>
     🔖 Research Project
@@ -16,19 +16,20 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-  Unmanned Aerial Vehicles (UAVs) have constraints on battery life that affect their
-  time-of-flight. This is especially important for coverage applications in forests,
-  where a drone might not be recoverable from failure. In this work, we developed
-  and implemented a planning strategy for UAVs to plan an emergency landing on one
-  of landing zones in an environment which will maximize coverage within battery
-  life constraints.
+  This project focuses on the automated detection of infrastructure cracks and develops a crack detection and recognition system based on unmanned aerial vehicles (UAVs) and computer vision.
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-  We proposed a system consisting of two planners: a coverage planner and an emergency
-  planner, integrated within a behavior executive that intelligently switches modes
-  based on the UAV’s remaining battery life. The landing planner was based on a 3D A*
-  algorithm that also considered covered area as part of the cost function. Code available on
+In terms of the hardware system, a quadrotor UAV is used as the carrier, integrating a camera, a wireless image transmission module, an ultrasonic distance sensor, and a wireless data transmission module to achieve synchronized acquisition and remote transmission of crack images and shooting distance information. On the PC side, video streams and distance data are received in real time through the image and data transmission modules, providing a data basis for subsequent analysis.
+</p>
+
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+In terms of image processing and crack recognition, OpenCV is employed to perform grayscale conversion, filtering, histogram equalization, adaptive thresholding, and morphological operations on the acquired crack images, enabling automatic crack detection and contour extraction. Furthermore, projection features, area features, and distribution density features of cracks are extracted to construct feature vectors, which are then used to train an SVM classifier for automatic identification of crack types, including transverse, longitudinal, diagonal, and reticular cracks. Finally, by calculating the distances between pixel points on both sides of the crack contour and combining ultrasonic distance measurements with pixel-to-real-world scale transformation, the maximum crack width and actual crack area are accurately computed.
+</p>
+
+
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+The following presents the actual testing results. And the original source code has been released on
   <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
