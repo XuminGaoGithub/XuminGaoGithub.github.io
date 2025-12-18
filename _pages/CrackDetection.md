@@ -53,8 +53,8 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
 
   <!-- 右图容器（更宽） -->
   <div style="
-    width: 420px;
-    height: 220px;
+    width: 600px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
