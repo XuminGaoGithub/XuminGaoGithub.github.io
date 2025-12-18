@@ -14,6 +14,12 @@ This list showcases some of the selected research, coursework, and independent p
 
 ---
 
+<!-- Year Divider -->
+<div style="display: flex; align-items: center; margin: 40px 0 20px 0;">
+  <div style="flex: 1; height: 3px; background-color: #333;"></div>
+  <div style="padding-left: 12px; font-size: 1.4em; font-weight: 700;">2025</div>
+</div>
+
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
@@ -33,8 +39,9 @@ This list showcases some of the selected research, coursework, and independent p
 
     <!-- Date -->
     <p style="margin: 0; color: #666;">
-      Nov 2022
+      <span style="margin-right:6px;">📅</span> September, 2025
     </p>
+
 
     <!-- Description -->
     <p style="margin-top:10px;">
@@ -45,7 +52,7 @@ This list showcases some of the selected research, coursework, and independent p
 
     <!-- Links -->
     <p style="margin-top:10px;">
-      <a href="/projects/publications/" style="margin-right:20px;">
+      <a href="/publications/" style="margin-right:20px;">
         📖 Read More
       </a>
       <a href="https://www.youtube.com/watch?v=xgqmUpdp-0A&t=11s" target="_blank">
