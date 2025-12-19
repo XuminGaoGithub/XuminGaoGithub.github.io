@@ -10,7 +10,7 @@ author_profile: true
 
 {% include base_path %}
 
-This list showcases some of the selected research, coursework, and independent projects I have worked on throughout my career, which are not included in the [**publications section**](https://xumingaogithub.github.io/publications/).
+This list showcases some of the selected research projects, coursework, competition work, and independent projects I have worked on throughout my career, which are not included in the [**publications section**](https://xumingaogithub.github.io/publications/).
 
 
 
@@ -26,7 +26,7 @@ This list showcases some of the selected research, coursework, and independent p
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
-  <div style="flex: 0 0 450px;">
+  <div style="flex: 0 0 420px;">
 
 
   <img
@@ -34,7 +34,7 @@ This list showcases some of the selected research, coursework, and independent p
   alt="Project image"
   style="
     width: 390px;
-    height: 210px;
+    height: 260px;
     object-fit: contain;
     border-radius: 8px;
   ">
@@ -90,7 +90,7 @@ This list showcases some of the selected research, coursework, and independent p
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
-  <div style="flex: 0 0 450px;">
+  <div style="flex: 0 0 420px;">
     
   <img
   src="/images/Crack_Detection.gif"
