@@ -33,7 +33,7 @@ This list showcases some of the selected research, coursework, and independent p
   alt="Project image"
   style="
     width: 390px;
-    height: 230px;
+    height: 210px;
     object-fit: cover;
     border-radius: 8px;
   ">
