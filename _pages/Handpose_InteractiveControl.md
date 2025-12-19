@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Crack Detection System Based on Drone Vision"
+title: "An Intelligent Human–Robot Interactive Mobile Grasping Robot Based on Visual Gesture Recognition"
 permalink: /Handpose_InteractiveControl/
 author_profile: true
 ---
@@ -8,19 +8,19 @@ author_profile: true
 ---
 <p style="margin: 0 0 18px 0; color:#666; font-size:0.95em;">
   <span style="margin-right:20px;">
-    📅 2017
+    📅 2018
   </span>
   <span>
-    🔖 Research Project
+    🔖 Competition work
   </span>
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-To meet the demand for automated infrastructure crack inspection, this project develops a crack detection and recognition system integrating UAV platforms and computer vision techniques.
+To address the limitations of hand gesture interaction methods in practical scenarios, including the complexity of sensor-based interaction and the high cost and distance constraints of 3D vision reconstruction, this work developed an intelligent human–robot interactive mobile grasping robot based on monocular vision–based hand gesture detection and recognition.
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of the hardware system, a quadrotor UAV is used as the carrier, integrating a camera, a wireless image transmission module, an ultrasonic distance sensor, and a wireless data transmission module to achieve synchronized acquisition and remote transmission of crack images and shooting distance information. On the PC side, video streams and distance data are received in real time through the image and data transmission modules, providing a data basis for subsequent analysis.
+In terms of the hardware system, a tracked mobile platform is employed as the carrier, integrating an Arduino control board, a servo-driven mechanical gripper, a PcDuino with a camera module for real-time visual monitoring, and wireless communication technology. The Arduino is responsible for executing motion commands of the tracked vehicle and controlling the opening and closing of the mechanical gripper. The PcDuino captures environmental video and transmits the video stream to the PC via mjpg-streamer. After performing gesture recognition on the received video stream, the PC sends corresponding control commands to the Arduino through wireless communication, thereby realizing interactive actions such as movement, turning, and object grasping.
 </p>
 
 <div style="
@@ -74,11 +74,8 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
 </div>
 
 
-
-
-
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of image processing and crack recognition, OpenCV is employed to perform grayscale conversion, filtering, histogram equalization, adaptive thresholding, and morphological operations on the acquired crack images, enabling automatic crack detection and contour extraction. Furthermore, projection features, area features, and distribution density features of cracks are extracted to construct feature vectors, which are then used to train an SVM classifier for automatic identification of crack types, including transverse, longitudinal, diagonal, and reticular cracks. Finally, by calculating the distances between pixel points on both sides of the crack contour and combining ultrasonic distance measurements with pixel-to-real-world scale transformation, the maximum crack width and actual crack area are accurately computed.
+In the visual perception system, a lightweight SSD-based network is adopted to achieve real-time recognition of multiple hand gestures, including oplam (open_palm), cplam (close_palm), fist, and ok. Specifically, the cplam gesture is used to control the motion of the tracked mobile robot, where the relative position of the gesture center with respect to the image center determines the movement direction. The oplam, fist, and ok gestures are employed to control the opening and closing of the mechanical gripper and to stop the motion of the mobile robot, respectively.
 </p>
 
 <div style="text-align: center; margin: 25px 0;">
