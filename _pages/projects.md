@@ -23,14 +23,14 @@ This list showcases some of the selected research, coursework, and independent p
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
 
   <!-- 左侧图片 -->
-  <div style="flex: 0 0 500px;">
+  <div style="flex: 0 0 450px;">
     
   <img
   src="/images/Crack_Detection_System.png"
   alt="Project image"
   style="
-    width: 450px;
-    height: 300px;
+    width: 390px;
+    height: 270px;
     object-fit: cover;
     border-radius: 8px;
   ">
