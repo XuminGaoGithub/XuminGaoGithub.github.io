@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Crack Detection System Based on Drone Vision"
-permalink: /CrackDetection/
+permalink: /Handpose_InteractiveControl/
 author_profile: true
 ---
 
