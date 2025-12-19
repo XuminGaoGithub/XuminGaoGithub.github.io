@@ -89,7 +89,7 @@ In terms of hand gesture detection and recognition, a lightweight SSD-based netw
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 The following video is a test demo, and the original source code has been released on
-  <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
+  <a href="https://github.com/XuminGaoGithub/An-Intelligent-Human-Robot-Interactive-Mobile-Grasping-Robot-Based-on-Visual-Gesture-Recognition"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
     github.
