@@ -58,7 +58,7 @@ This list showcases some of the selected research, coursework, and independent p
 
     <!-- Description -->
     <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-      This work was developed for the 8th “Huawei Cup” China University Student Intelligent Design Competition in 2018, where it was awarded First Prize. It implemented an intelligent human–robot interaction system that enables remote control of robot movements and object grasping through the recognition of different hand gestures.
+      This work was developed for the 8th “Huawei Cup” China University Student Intelligent Design Competition in 2018, where it was awarded <strong>First Prize</strong>. It implemented an intelligent human–robot interaction system that enables remote control of robot movements and object grasping through the recognition of different hand gestures.
     </p>
 
     <!-- Links -->
