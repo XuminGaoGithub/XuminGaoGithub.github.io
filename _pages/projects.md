@@ -26,7 +26,7 @@ This list showcases some of the selected research, coursework, and independent p
   <div style="flex: 0 0 450px;">
     
   <img
-  src="/images/Crack_Detection_System.png"
+  src="/images/Crack_Detection.gif"
   alt="Project image"
   style="
     width: 390px;
