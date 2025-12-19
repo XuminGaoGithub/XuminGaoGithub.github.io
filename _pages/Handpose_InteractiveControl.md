@@ -40,7 +40,7 @@ In terms of the hardware system, a tracked mobile platform is employed as the ca
     align-items: center;
   ">
     <img
-      src="/images/HRHandpose_robot.jpg"
+      src="/images/HRHandpose_robot.png"
       alt="Crack Detection UAV"
       style="
         max-width: 100%;
@@ -60,7 +60,7 @@ In terms of the hardware system, a tracked mobile platform is employed as the ca
     align-items: center;
   ">
     <img
-      src="/images/HRHandpose_frame.jpg"
+      src="/images/HRHandpose_frame.png"
       alt="System Framework"
       style="
         max-width: 100%;
