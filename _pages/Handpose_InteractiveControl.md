@@ -33,8 +33,8 @@ In terms of the hardware system, a tracked mobile platform is employed as the ca
 
   <!-- 左图容器（稍窄） -->
   <div style="
-    width: 300px;
-    height: 220px;
+    width: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,13 +82,13 @@ In terms of hand gesture detection and recognition, a lightweight SSD-based netw
   <img
     src="/images/HRHandpose_reg.png"
     alt="Crack Recognition Results"
-    style="width: 520px; max-width: 100%; border-radius:6px;"
+    style="width: 800px; max-width: 100%; border-radius:6px;"
   />
 </div>
 
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-The following video presents the actual testing results. And the original source code has been released on
+The following video is a test demo, and the original source code has been released on
   <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
@@ -111,7 +111,7 @@ The following video presents the actual testing results. And the original source
 
 ### Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-Thanks to the support of the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology, and Associate Professor Lei Bin. The team members include Gao Xumin, Xiao Chao, Wang Huayu, and Lin Bin.
+Thanks to the support of the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology, and Associate Professor Lei Bin. The team members include Gao Xumin, Xiao Chao, Wang Huayu, and Lei Bin.
 </p>
 
 
