@@ -27,14 +27,15 @@ This list showcases some of the selected research, coursework, and independent p
 
   <!-- 左侧图片 -->
   <div style="flex: 0 0 450px;">
-    
+
+
   <img
   src="/images/Handpose_InteractiveControl.gif"
   alt="Project image"
   style="
     width: 390px;
     height: 210px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
   ">
 
@@ -97,7 +98,7 @@ This list showcases some of the selected research, coursework, and independent p
   style="
     width: 390px;
     height: 270px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
   ">
 
