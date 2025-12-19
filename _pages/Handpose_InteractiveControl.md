@@ -16,11 +16,11 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-To address the limitations of hand gesture interaction methods in practical scenarios, including the complexity of sensor-based interaction and the high cost and distance constraints of 3D vision reconstruction, this work developed an intelligent human–robot interactive mobile grasping robot based on monocular vision–based hand gesture detection and recognition.
+To address the limitations of hand gesture interaction methods in practical scenarios, such as the complexity of sensor-based interaction and the high cost and distance constraints of 3D vision reconstruction, this work developed an intelligent human–robot interactive mobile grasping robot based on monocular vision–based hand gesture detection and recognition.
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of the hardware system, a tracked mobile platform is employed as the carrier, integrating an Arduino control board, a servo-driven mechanical gripper, a PcDuino with a camera module for real-time visual monitoring, and wireless communication technology. The Arduino is responsible for executing motion commands of the tracked vehicle and controlling the opening and closing of the mechanical gripper. The PcDuino captures environmental video and transmits the video stream to the PC via mjpg-streamer. After performing gesture recognition on the received video stream, the PC sends corresponding control commands to the Arduino through wireless communication, thereby realizing interactive actions such as movement, turning, and object grasping.
+In terms of the hardware system, a tracked mobile platform is employed as the carrier, integrating an Arduino control board, a servo-driven mechanical gripper, a PcDuino with a camera module for real-time visual monitoring, and wireless communication technology. The Arduino is responsible for executing motion commands of the tracked vehicle and controlling the opening and closing of the mechanical gripper. The PcDuino captures environmental video and transmits the video stream to the PC via mjpg-streamer, thereby enabling remote monitoring of the robot. On the PC side, corresponding hand gestures are performed based on the remotely monitored environment and then recognized, after which the information is transmitted wirelessly to the Arduino board to interactively control the robot's movement and grasping.
 </p>
 
 <div style="
@@ -40,7 +40,7 @@ In terms of the hardware system, a tracked mobile platform is employed as the ca
     align-items: center;
   ">
     <img
-      src="/images/Crack_drone.jpg"
+      src="/images/HRHandpose_robot.jpg"
       alt="Crack Detection UAV"
       style="
         max-width: 100%;
@@ -60,7 +60,7 @@ In terms of the hardware system, a tracked mobile platform is employed as the ca
     align-items: center;
   ">
     <img
-      src="/images/Crack_framework.jpg"
+      src="/images/HRHandpose_frame.jpg"
       alt="System Framework"
       style="
         max-width: 100%;
@@ -75,12 +75,12 @@ In terms of the hardware system, a tracked mobile platform is employed as the ca
 
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In the visual perception system, a lightweight SSD-based network is adopted to achieve real-time recognition of multiple hand gestures, including oplam (open_palm), cplam (close_palm), fist, and ok. Specifically, the cplam gesture is used to control the motion of the tracked mobile robot, where the relative position of the gesture center with respect to the image center determines the movement direction. The oplam, fist, and ok gestures are employed to control the opening and closing of the mechanical gripper and to stop the motion of the mobile robot, respectively.
+In terms of hand gesture detection and recognition, a lightweight SSD-based network is adopted to achieve real-time detection and recognition of multiple hand gestures, including oplam (open_palm), cplam (close_palm), fist, and ok. Specifically, the cplam gesture is used to control the motion of the tracked mobile robot, where the relative position of the gesture center with respect to the image center determines the movement direction. The oplam, fist, and ok gestures are employed to control the opening and closing of the mechanical gripper and to stop the motion of the mobile robot, respectively.
 </p>
 
 <div style="text-align: center; margin: 25px 0;">
   <img
-    src="/images/CrackRec.png"
+    src="/images/HRHandpose_reg.png"
     alt="Crack Recognition Results"
     style="width: 520px; max-width: 100%; border-radius:6px;"
   />
@@ -101,7 +101,7 @@ The following video presents the actual testing results. And the original source
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/embed/bnexRIGOKMY"
+    src="https://www.youtube.com/embed//ItFX8F2m2y4"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
@@ -111,7 +111,7 @@ The following video presents the actual testing results. And the original source
 
 ### Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The research team members include Gao Xumin, Xu Pengcheng, Yi Wen, Li Kan, Zhen Chaoxue and Lei Bin.
+Thanks to the support of the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology, and Associate Professor Lei Bin. The team members include Gao Xumin, Xiao Chao, Wang Huayu, and Lin Bin.
 </p>
 
 
