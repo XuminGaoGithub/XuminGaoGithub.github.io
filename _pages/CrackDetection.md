@@ -112,6 +112,11 @@ The following video presents the actual testing results. And the original source
   </iframe>
 </div>
 
+## Acknowledgements
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The research team members include Gao Xumin, Xu Pengcheng, Yi Wen, Li Kan, Zhen Chaoxue and Lei Bin.
+</p>
+
 
 
 
