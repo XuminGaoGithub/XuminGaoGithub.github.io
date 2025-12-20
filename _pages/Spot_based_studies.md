@@ -24,9 +24,6 @@ This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School,
   </a>
 </p>
 
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of the hardware system, a quadrotor UAV is used as the carrier, integrating a camera, a wireless image transmission module, an ultrasonic distance sensor, and a wireless data transmission module to achieve synchronized acquisition and remote transmission of crack images and shooting distance information. On the PC side, video streams and distance data are received in real time through the image and data transmission modules, providing a data basis for subsequent analysis.
-</p>
 
 <div style="
   display: flex;
@@ -38,14 +35,14 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
 
   <!-- 左图容器（稍窄） -->
   <div style="
-    width: 300px;
-    height: 220px;
+    width: 600px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
   ">
     <img
-      src="/images/Crack_drone.jpg"
+      src="/images/spot_sheep.png"
       alt="Crack Detection UAV"
       style="
         max-width: 100%;
@@ -65,7 +62,7 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
     align-items: center;
   ">
     <img
-      src="/images/Crack_framework.jpg"
+      src="/images/Spot.png"
       alt="System Framework"
       style="
         max-width: 100%;
