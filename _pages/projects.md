@@ -32,8 +32,8 @@ This list showcases some of the selected research projects, coursework, competit
   src="/images/Spot_all.gif"
   alt="Project image"
   style="
-    width: 390px;
-    height: 260px;
+    width: 420px;
+    height: 300px;
     object-fit: contain;
     border-radius: 8px;
   ">
