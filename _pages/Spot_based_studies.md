@@ -11,12 +11,17 @@ author_profile: true
     📅 2017
   </span>
   <span>
-    🔖 Research Project
+    🔖 Mixed Projects
   </span>
 </p>
 
+## 1. From Bark to Bot – Making of a Robotic Shepherd
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-To meet the demand for automated infrastructure crack inspection, this project develops a crack detection and recognition system integrating UAV platforms and computer vision techniques.
+This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School, where participants collaboratively explored the design and prototyping of a robotic shepherd system. Further details can be found <a href="https://agriforwards-cdt.blogs.lincoln.ac.uk/2025/07/11/from-bark-to-bot-making-of-a-robotic-shepherd/"
+     target="_blank"
+     style="color:#1a0dab; text-decoration:underline;">
+    here.
+  </a>
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
