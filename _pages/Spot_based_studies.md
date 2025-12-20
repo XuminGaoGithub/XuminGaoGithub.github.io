@@ -29,8 +29,8 @@ This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School,
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin: 20px 0;
+  gap: 10px;
+  margin: 10px 0;
 ">
 
   <!-- 左图容器（稍窄） -->
@@ -56,7 +56,7 @@ This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School,
   <!-- 右图容器（更宽） -->
   <div style="
     width: 500px;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
