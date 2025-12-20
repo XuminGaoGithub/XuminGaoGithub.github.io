@@ -62,11 +62,11 @@ This list showcases some of the selected research projects, coursework, competit
 
     <!-- Links -->
     <p style="margin-top: 10px;">
-      <a href="/Handpose_InteractiveControl/"
+      <a href="/Spot_based_studies/"
          style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         📖 Read More
       </a>
-      <a href="https://www.youtube.com/watch?v=ItFX8F2m2y4"
+      <a href="https://www.youtube.com/@xumingao2714/videos"
          target="_blank"
          style="display:inline-block; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         🎞️ Video
