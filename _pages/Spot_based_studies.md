@@ -101,7 +101,7 @@ The following video shows the actual test results. Due to the absence of a gyros
   </iframe>
 </div>
 
-### Acknowledgements
+## Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln.
 </p>
