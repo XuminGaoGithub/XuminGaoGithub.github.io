@@ -76,24 +76,11 @@ This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School,
 </div>
 
 
-
-
-
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of image processing and crack recognition, OpenCV is employed to perform grayscale conversion, filtering, histogram equalization, adaptive thresholding, and morphological operations on the acquired crack images, enabling automatic crack detection and contour extraction. Furthermore, projection features, area features, and distribution density features of cracks are extracted to construct feature vectors, which are then used to train an SVM classifier for automatic identification of crack types, including transverse, longitudinal, diagonal, and reticular cracks. Finally, by calculating the distances between pixel points on both sides of the crack contour and combining ultrasonic distance measurements with pixel-to-real-world scale transformation, the maximum crack width and actual crack area are accurately computed.
-</p>
-
-<div style="text-align: center; margin: 25px 0;">
-  <img
-    src="/images/CrackRec.png"
-    alt="Crack Recognition Results"
-    style="width: 520px; max-width: 100%; border-radius:6px;"
-  />
-</div>
-
-
+In this work, my primary contribution was the design and implementation of a GPS-based autonomous navigation system on a Spot quadruped robot running ROS 2. The final implementation involved creating a ROS 2 navigation node that subscribes to a GPS topic to obtain positioning data and determine the robot’s current latitude and longitude. Based on the relationship between the current position and a predefined target location, the Haversine formula was used to compute the geographic distance between the two points, while bearing calculation was applied to determine the desired direction of motion toward the target. The distance and direction information were then converted into cmd_vel velocity control commands, enabling the Spot robot to gradually approach the target using a control strategy that combines rotation and forward motion, thereby achieving GPS-based point-to-point autonomous navigation. We also attempted to implement a more complete and refined navigation solution using the Nav2 framework; however, due to project time constraints and the complexity of system integration and debugging, this approach did not be successfully deployed. 
+  
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-The following video presents the actual testing results. And the original source code has been released on
+The following video shows the actual test results. Due to the absence of a gyroscope sensor, the robot’s pose could not be accurately estimated, resulting in sluggish movement. In addition, the GPS module used exhibited significant drift, causing the robot to fail to precisely reach the designated target point, even though the GPS feedback indicated that it was within 1.5 meters of the goal. The code has been released on
   <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
@@ -106,7 +93,7 @@ The following video presents the actual testing results. And the original source
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/embed/bnexRIGOKMY"
+    src="https://www.youtube.com/embed/FiAzW4aQwps"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
@@ -116,7 +103,7 @@ The following video presents the actual testing results. And the original source
 
 ### Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The research team members include Gao Xumin, Xu Pengcheng, Yi Wen, Li Kan, Zhen Chaoxue and Lei Bin.
+This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln.
 </p>
 
 
