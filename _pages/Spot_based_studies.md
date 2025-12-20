@@ -55,8 +55,8 @@ This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School,
 
   <!-- 右图容器（更宽） -->
   <div style="
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
