@@ -121,6 +121,9 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
   </a>
 </p>
 
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+In this work, my main contribution is to design and implement a robot manipulation pipeline for occlusion removal in tomato plants based on the Spot quadruped robot, by integrating Interactive Perception. This enables the robot to actively manipulate leaves to reduce fruit occlusion, thereby improving the accuracy and reliability of tomato counting. The specific implementation solution is as follows: First, the Spot robot's onboard camera captures images of tomato plants, and GroundingDINO + Segment Anything Model (SAM) is employed to achieve joint detection and fine segmentation of tomato fruits and leaves. Subsequently, by analyzing the spatial overlap relationship between leaves and tomato fruits, key leaves causing occlusion are identified. Based on the segmentation mask, their geometric centroids and relative directions are calculated. On this basis, the calculated grasping points and movement directions are transmitted to the Spot robot, guiding its robotic arm to perform leaf grasping and displacement operations, thereby actively removing occlusions. The system realizes an interactive perception loop of “perception–decision–action”, creating more optimal visual conditions for subsequent tomato perception and counting tasks. 
+
 
 <div style="
   display: flex;
@@ -139,7 +142,7 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
     align-items: center;
   ">
     <img
-      src="/images/dog_shepherd.gif"
+      src="/images/SPOT_interactive perception.jpg"
       alt="Crack Detection UAV"
       style="
         max-width: 100%;
@@ -159,7 +162,7 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
     align-items: center;
   ">
     <img
-      src="/images/Spot.png"
+      src="/images/SPOT_interactive perception.gif"
       alt="System Framework"
       style="
         max-width: 100%;
@@ -171,10 +174,6 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
   </div>
 
 </div>
-
-
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In this work, my primary contribution was the design and implementation of a GPS-based autonomous navigation system on a Spot quadruped robot running ROS 2. The final implementation involved creating a ROS 2 navigation node that subscribes to a GPS topic to obtain positioning data and determine the robot’s current latitude and longitude. Based on the relationship between the current position and a predefined target location, the Haversine formula was used to compute the geographic distance between the two points, while bearing calculation was applied to determine the desired direction of motion toward the target. The distance and direction information were then converted into cmd_vel velocity control commands, enabling the Spot robot to gradually approach the target using a control strategy that combines rotation and forward motion, thereby achieving GPS-based point-to-point autonomous navigation. We also attempted to implement a more complete and refined navigation solution using the Nav2 framework; however, due to project time constraints and the complexity of system integration and debugging, this approach did not be successfully deployed. 
   
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 The following video shows the actual test results. Due to the absence of a gyroscope sensor, the robot’s pose could not be accurately estimated, resulting in sluggish movement. In addition, the GPS module used exhibited significant drift, causing the robot to fail to precisely reach the designated target point, even though the GPS feedback indicated that it was within 1.5 meters of the goal. The code has been released on
@@ -200,7 +199,7 @@ The following video shows the actual test results. Due to the absence of a gyros
 
 ## Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln.
+This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln and Wageningen University & Research.
 </p>
 
 
