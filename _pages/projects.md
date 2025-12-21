@@ -32,8 +32,8 @@ This list showcases some of the selected research projects, coursework, competit
   src="/images/Spot_all.gif"
   alt="Project image"
   style="
-    width: 420px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
     object-fit: contain;
     border-radius: 8px;
   ">
@@ -99,8 +99,8 @@ This list showcases some of the selected research projects, coursework, competit
   src="/images/Handpose_InteractiveControl.gif"
   alt="Project image"
   style="
-    width: 390px;
-    height: 300px;
+    width: 420px;
+    height: 350px;
     object-fit: contain;
     border-radius: 8px;
   ">
