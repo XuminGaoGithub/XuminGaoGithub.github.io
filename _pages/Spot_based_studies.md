@@ -8,7 +8,7 @@ author_profile: true
 ---
 <p style="margin: 0 0 18px 0; color:#666; font-size:0.95em;">
   <span style="margin-right:20px;">
-    📅 2017
+    📅 2023-2025
   </span>
   <span>
     🔖 Mixed Projects
@@ -35,14 +35,14 @@ This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School,
 
   <!-- 左图容器（稍窄） -->
   <div style="
-    width: 600px;
+    width: 500px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
   ">
     <img
-      src="/images/spot_sheep.png"
+      src="/images/dog_shepherd.gif"
       alt="Crack Detection UAV"
       style="
         max-width: 100%;
