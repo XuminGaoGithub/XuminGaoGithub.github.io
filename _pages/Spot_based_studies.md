@@ -15,7 +15,7 @@ author_profile: true
   </span>
 </p>
 
-<h2>1. From Bark to Bot – Making of a Robotic Shepherd<h2>
+<h2>1. From Bark to Bot – Making of a Robotic Shepherd</h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School, where participants collaboratively explored the design and prototyping of a robotic shepherd system. Further details can be found <a href="https://agriforwards-cdt.blogs.lincoln.ac.uk/2025/07/11/from-bark-to-bot-making-of-a-robotic-shepherd/"
      target="_blank"
@@ -112,7 +112,7 @@ This work was supported by the Engineering and Physical Sciences Research Counci
 
 
 
-<h2>2. Robotic phenotyping<h2>
+<h2>2. Robotic phenotyping</h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School, jointly hosted with Wageningen University & Research, where participants collaboratively explored robotic phenotyping through hands-on group projects and field experiments. Further details can be found <a href="https://new.express.adobe.com/webpage/68Psphd1Liu5x"
      target="_blank"
