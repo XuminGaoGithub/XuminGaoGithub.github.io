@@ -216,7 +216,7 @@ This list showcases some of the selected research projects, coursework, competit
 
 
   <img
-  src="/images/dance_robot.gif"
+  src="/images/cleaning_robot.gif"
   alt="Project image"
   style="
     width: 420px;
@@ -254,7 +254,7 @@ This list showcases some of the selected research projects, coursework, competit
          style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         📖 Read More
       </a>
-      <a href="https://youtu.be/owIAkqzdEs4?si=oluE68HceD0Qs8m8"
+      <a href="https://youtu.be/owIAkqzdEs4?si=RmGr7PSsRnC3pdC6"
          target="_blank"
          style="display:inline-block; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         🎞️ Video
