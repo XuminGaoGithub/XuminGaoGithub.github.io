@@ -135,8 +135,8 @@ In this work, my main contribution is to design and implement a robot manipulati
 
   <!-- 左图容器（稍窄） -->
   <div style="
-    width: 700px;
-    height: 450px;
+    width: 1000px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
