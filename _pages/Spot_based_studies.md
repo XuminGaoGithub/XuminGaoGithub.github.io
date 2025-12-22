@@ -118,15 +118,13 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In this work, my main contribution is to design and implement a robot manipulation pipeline for occlusion removal in tomato plants based on the Spot quadruped robot, by integrating Interactive Perception. This enables the robot to actively manipulate leaves to reduce fruit occlusion, thereby improving the accuracy and reliability of tomato counting. The specific implementation solution is as follows: First, the Spot robot's onboard camera captures images of tomato plants, and GroundingDINO + Segment Anything Model (SAM) is employed to achieve joint detection and fine segmentation of tomato fruits and leaves. Subsequently, by analyzing the spatial overlap relationship between leaves and tomato fruits, key leaves causing occlusion are identified. Based on the segmentation mask, their geometric centroids and relative directions are calculated. On this basis, the calculated grasping points and movement directions are transmitted to the Spot robot, guiding its robotic arm to perform leaf grasping and displacement operations, thereby actively removing occlusions. The system realizes an interactive perception loop of “perception–decision–action”, creating more optimal visual conditions for subsequent tomato perception and counting tasks. The code has been released on
+As the topic lead for Interactive Perception, I led the design and implementation of a robot manipulation pipeline for occlusion removal in tomato plants based on the Spot quadruped robot. This enables the robot to actively manipulate leaves to reduce fruit occlusion, thereby improving the accuracy and reliability of tomato counting. The specific implementation solution is as follows: First, the Spot robot's onboard camera captures images of tomato plants, and GroundingDINO + Segment Anything Model (SAM) is employed to achieve joint detection and fine segmentation of tomato fruits and leaves. Subsequently, by analyzing the spatial overlap relationship between leaves and tomato fruits, key leaves causing occlusion are identified. Based on the segmentation mask, their geometric centroids and relative directions are calculated. On this basis, the calculated grasping points and movement directions are transmitted to the Spot robot, guiding its robotic arm to perform leaf grasping and displacement operations, thereby actively removing occlusions. The system realizes an interactive perception loop of “perception–decision–action”, creating more optimal visual conditions for subsequent tomato perception and counting tasks. The code has been released on
   <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
     github.
   </a>
 </p> 
-
-
 <!-- 左图：单独一行，居中 -->
 <div style="
   display: flex;
@@ -152,7 +150,6 @@ In this work, my main contribution is to design and implement a robot manipulati
     />
   </div>
 </div>
-
 <!-- 右图：在左图下面，单独一行，居中 -->
 <div style="
   display: flex;
