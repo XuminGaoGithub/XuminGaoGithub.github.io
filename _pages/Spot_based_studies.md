@@ -146,7 +146,7 @@ This work was supported by the Engineering and Physical Sciences Research Counci
 
 <h2>3. Do You Remember, Spot? </h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This is a personal project driven by my hobby in dancing. In addition, due to the licensing restriction of Spot’s choreography module, which requires an additional fee to unlock, I spent one week programming a dance for the Spot robot without using it, based on the song "September" by Earth, Wind & Fire.. Yes, this is the second time I have choreographed a dance for the robot. Due to time constraints, the final implementation relies on coding preset dance moves that sync with the music’s beats. In the future, if time allows, I plan to develop a more intelligent dancing robot.
+This is a personal project driven by my hobby of dancing. In addition, due to the licensing restriction of Spot’s choreography module, which requires an additional fee to unlock, I spent one week programming a dance for the Spot robot without using it, based on the song "September" by Earth, Wind & Fire.. Yes, this is the second time I have choreographed a dance for the robot. Due to time constraints, the final implementation relies on coding preset dance moves that sync with the music’s beats. In the future, if time allows, I plan to develop a more intelligent dancing robot.
 
 <!--图 -->
 <div style="display:flex; justify-content:center; padding:0; margin:2px 0 0 0;">
