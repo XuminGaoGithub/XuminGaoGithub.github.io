@@ -130,8 +130,7 @@ As the topic lead for Interactive Perception, I led the design and implementatio
 </div>
 
 <!-- 右图 -->
-<div style="display:flex; justify-content:center; padding:0; margin:2px 0 0 0;">
-  <div style="
+<div style="
        width: 300px; 
        height: 600px; 
        display:flex; 
