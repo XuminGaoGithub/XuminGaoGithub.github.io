@@ -15,7 +15,7 @@ author_profile: true
   </span>
 </p>
 
-## 1. From Bark to Bot – Making of a Robotic Shepherd
+<h2>1. From Bark to Bot – Making of a Robotic Shepherd<h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This short-term project originated from the AgriFoRwArdS CDT 2025 Summer School, where participants collaboratively explored the design and prototyping of a robotic shepherd system. Further details can be found <a href="https://agriforwards-cdt.blogs.lincoln.ac.uk/2025/07/11/from-bark-to-bot-making-of-a-robotic-shepherd/"
      target="_blank"
@@ -101,7 +101,7 @@ The following video shows the actual test results. Due to the absence of a gyros
   </iframe>
 </div>
 
-<h2>Acknowledgements</h2>
+<h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln.
 </p>
@@ -112,7 +112,7 @@ This work was supported by the Engineering and Physical Sciences Research Counci
 
 
 
-## 2. Robotic phenotyping
+<h2>2. Robotic phenotyping<h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School, jointly hosted with Wageningen University & Research, where participants collaboratively explored robotic phenotyping through hands-on group projects and field experiments. Further details can be found <a href="https://new.express.adobe.com/webpage/68Psphd1Liu5x"
      target="_blank"
@@ -125,15 +125,12 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
 In this work, my main contribution is to design and implement a robot manipulation pipeline for occlusion removal in tomato plants based on the Spot quadruped robot, by integrating Interactive Perception. This enables the robot to actively manipulate leaves to reduce fruit occlusion, thereby improving the accuracy and reliability of tomato counting. The specific implementation solution is as follows: First, the Spot robot's onboard camera captures images of tomato plants, and GroundingDINO + Segment Anything Model (SAM) is employed to achieve joint detection and fine segmentation of tomato fruits and leaves. Subsequently, by analyzing the spatial overlap relationship between leaves and tomato fruits, key leaves causing occlusion are identified. Based on the segmentation mask, their geometric centroids and relative directions are calculated. On this basis, the calculated grasping points and movement directions are transmitted to the Spot robot, guiding its robotic arm to perform leaf grasping and displacement operations, thereby actively removing occlusions. The system realizes an interactive perception loop of “perception–decision–action”, creating more optimal visual conditions for subsequent tomato perception and counting tasks. 
 
 
+<!-- 左图：单独一行，居中 -->
 <div style="
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 5px;
-  margin: 5px 0;
+  margin: 10px 0;
 ">
-
-  <!-- 左图容器（稍窄） -->
   <div style="
     width: 1000px;
     height: 650px;
@@ -143,7 +140,7 @@ In this work, my main contribution is to design and implement a robot manipulati
   ">
     <img
       src="/images/SPOT_interactive perception.jpg"
-      alt="Crack Detection UAV"
+      alt="SPOT_interactive perception"
       style="
         max-width: 100%;
         max-height: 100%;
@@ -152,8 +149,14 @@ In this work, my main contribution is to design and implement a robot manipulati
       "
     />
   </div>
+</div>
 
-  <!-- 右图容器（更宽） -->
+<!-- 右图：在左图下面，单独一行，居中 -->
+<div style="
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+">
   <div style="
     width: 500px;
     height: 300px;
@@ -172,8 +175,8 @@ In this work, my main contribution is to design and implement a robot manipulati
       "
     />
   </div>
-
 </div>
+
   
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 The following video shows the actual test results. Due to the absence of a gyroscope sensor, the robot’s pose could not be accurately estimated, resulting in sluggish movement. In addition, the GPS module used exhibited significant drift, causing the robot to fail to precisely reach the designated target point, even though the GPS feedback indicated that it was within 1.5 meters of the goal. The code has been released on
