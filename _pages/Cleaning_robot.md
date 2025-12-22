@@ -15,7 +15,6 @@ author_profile: true
   </span>
 </p>
 
-<h2>A Cleaning Robot</h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 In this work, we designed and implemented a cleaning robot from scratch. We first completed the 3D structural modeling and fabricated the required structural components using laser cutting and 3D printing. Subsequently, we installed and integrated components such as motors, sensors, motor driver modules, an Arduino main control board, and cleaning and vacuuming devices to complete the hardware assembly of the robot. On the software side, we developed control programs to achieve automatic obstacle avoidance, simple path traversal, automatic cleaning and vacuuming, and automatic charging functions. 
 
