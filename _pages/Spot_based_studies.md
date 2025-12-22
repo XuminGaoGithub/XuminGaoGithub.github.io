@@ -131,7 +131,7 @@ In this work, my main contribution is to design and implement a robot manipulati
 <div style="
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 1px 0;
 ">
   <div style="
     width: 1000px;
@@ -157,7 +157,7 @@ In this work, my main contribution is to design and implement a robot manipulati
 <div style="
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 1px 0;
 ">
   <div style="
     width: 500px;
