@@ -130,19 +130,13 @@ As the topic lead for Interactive Perception, I led the design and implementatio
 </div>
 
 <!-- 右图 -->
-<div style="display:flex; justify-content:center; padding:0; margin:5px 0 0 0;">
+<div style="display:flex; justify-content:center; padding:0; margin:10px 0 0 0;">
   <div style="width:300px; display:flex; justify-content:center; align-items:center;">
     <img src="/images/SPOT_interactive perception.gif"
          alt="System Framework"
          style="display:block; max-width:100%; border-radius:6px; object-fit:contain;">
   </div>
 </div>
-
-<h3 style="margin-top:10px;">Acknowledgements</h3>
-<p style="margin-top:5px; text-align: justify;">
-  This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln and Wageningen University & Research.
-</p>
-
 
 <h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
