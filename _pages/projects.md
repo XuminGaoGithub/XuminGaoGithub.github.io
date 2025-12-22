@@ -226,7 +226,7 @@ This list showcases some of the selected research projects, coursework, competit
   alt="Project image"
   style="
     width: 420px;
-    height: 390px;
+    height: 350px;
     object-fit: contain;
     border-radius: 8px;
   ">
