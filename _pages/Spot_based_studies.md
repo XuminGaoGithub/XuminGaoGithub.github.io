@@ -124,23 +124,87 @@ As the topic lead for Interactive Perception, I led the design and implementatio
 
 <!-- 左图 -->
 <div style="display:flex; justify-content:center; padding:0; margin:0 0 2px 0;">
-  <img src="/images/SPOT_interactive perception.jpg"
+  <img src="/images/SPOT_interactive perception_1.jpg"
        alt="SPOT_interactive perception"
        style="max-width:100%; border-radius:6px; object-fit:contain;">
 </div>
 
 <!-- 右图 -->
-<div style="display:flex; justify-content:center; padding:0; margin:2px 0 0 0;">
-  <img src="/images/SPOT_interactive perception.gif"
-       alt="System Framework"
-       style="max-width:100%; border-radius:6px; object-fit:contain;">
+<div style="display:flex; justify-content:center; padding:0; margin:5px 0 0 0;">
+  <div style="
+       width: 300px; 
+       height: 600px; 
+       display:flex; 
+       justify-content:center; 
+       align-items:center;
+  ">
+    <img src="/images/SPOT_interactive perception.gif"
+         alt="System Framework"
+         style="
+           max-width:100%; 
+           max-height:100%; 
+           border-radius:6px; 
+           object-fit:contain;
+         ">
+  </div>
 </div>
 
 
-  
 <h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln and Wageningen University & Research.
+</p>
+
+
+<h2>3. Do You Remember, Spot? Shepherd</h2>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+This is a personal project driven by my hobby in dancing. In addition, due to the licensing restriction of Spot’s choreography module, which requires an additional $10,000 to unlock, I spent one week programming a dance for the Spot robot without using it, based on the song "September" by Earth, Wind & Fire.. Yes, this is the second time I have choreographed a dance for the robot. Due to time constraints, the final implementation relies on coding preset dance moves that sync with the music’s beats. In the future, if time allows, I plan to develop a more intelligent dancing robot.
+
+<!--图 -->
+<div style="display:flex; justify-content:center; padding:0; margin:5px 0 0 0;">
+  <div style="
+       width: 300px; 
+       height: 600px; 
+       display:flex; 
+       justify-content:center; 
+       align-items:center;
+  ">
+    <img src="/images/Spot_dance.gif"
+         alt="System Framework"
+         style="
+           max-width:100%; 
+           max-height:100%; 
+           border-radius:6px; 
+           object-fit:contain;
+         ">
+  </div>
+</div>
+
+
+The video is shown below. The code has been released on
+  <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
+     target="_blank"
+     style="color:#1a0dab; text-decoration:underline;">
+    github.
+  </a>
+</p>
+
+
+<div style="display:flex; justify-content:center; margin:35px 0;">
+  <iframe
+    width="720"
+    height="405"
+    src="https://www.youtube.com/embed/41CujYzacJ4"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="border-radius:8px;">
+  </iframe>
+</div>
+
+<h3>Acknowledgements</h3>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+Thanks to the support of the University of Lincoln.
 </p>
 
 
