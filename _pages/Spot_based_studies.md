@@ -108,10 +108,6 @@ This work was supported by the Engineering and Physical Sciences Research Counci
 
 
 
-
-
-
-
 <h2>2. Robotic phenotyping</h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School, jointly hosted with Wageningen University & Research, where participants collaboratively explored robotic phenotyping through hands-on group projects and field experiments. Further details can be found <a href="https://new.express.adobe.com/webpage/68Psphd1Liu5x"
@@ -122,7 +118,13 @@ This short-term project originated from the AgriFoRwArdS CDT 2024 Summer School,
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In this work, my main contribution is to design and implement a robot manipulation pipeline for occlusion removal in tomato plants based on the Spot quadruped robot, by integrating Interactive Perception. This enables the robot to actively manipulate leaves to reduce fruit occlusion, thereby improving the accuracy and reliability of tomato counting. The specific implementation solution is as follows: First, the Spot robot's onboard camera captures images of tomato plants, and GroundingDINO + Segment Anything Model (SAM) is employed to achieve joint detection and fine segmentation of tomato fruits and leaves. Subsequently, by analyzing the spatial overlap relationship between leaves and tomato fruits, key leaves causing occlusion are identified. Based on the segmentation mask, their geometric centroids and relative directions are calculated. On this basis, the calculated grasping points and movement directions are transmitted to the Spot robot, guiding its robotic arm to perform leaf grasping and displacement operations, thereby actively removing occlusions. The system realizes an interactive perception loop of “perception–decision–action”, creating more optimal visual conditions for subsequent tomato perception and counting tasks. 
+In this work, my main contribution is to design and implement a robot manipulation pipeline for occlusion removal in tomato plants based on the Spot quadruped robot, by integrating Interactive Perception. This enables the robot to actively manipulate leaves to reduce fruit occlusion, thereby improving the accuracy and reliability of tomato counting. The specific implementation solution is as follows: First, the Spot robot's onboard camera captures images of tomato plants, and GroundingDINO + Segment Anything Model (SAM) is employed to achieve joint detection and fine segmentation of tomato fruits and leaves. Subsequently, by analyzing the spatial overlap relationship between leaves and tomato fruits, key leaves causing occlusion are identified. Based on the segmentation mask, their geometric centroids and relative directions are calculated. On this basis, the calculated grasping points and movement directions are transmitted to the Spot robot, guiding its robotic arm to perform leaf grasping and displacement operations, thereby actively removing occlusions. The system realizes an interactive perception loop of “perception–decision–action”, creating more optimal visual conditions for subsequent tomato perception and counting tasks. The code has been released on
+  <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
+     target="_blank"
+     style="color:#1a0dab; text-decoration:underline;">
+    github.
+  </a>
+</p> 
 
 
 <!-- 左图：单独一行，居中 -->
@@ -178,29 +180,7 @@ In this work, my main contribution is to design and implement a robot manipulati
 </div>
 
   
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-The following video shows the actual test results. Due to the absence of a gyroscope sensor, the robot’s pose could not be accurately estimated, resulting in sluggish movement. In addition, the GPS module used exhibited significant drift, causing the robot to fail to precisely reach the designated target point, even though the GPS feedback indicated that it was within 1.5 meters of the goal. The code has been released on
-  <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
-     target="_blank"
-     style="color:#1a0dab; text-decoration:underline;">
-    github.
-  </a>
-</p>
-
-
-<div style="display:flex; justify-content:center; margin:35px 0;">
-  <iframe
-    width="720"
-    height="405"
-    src="https://www.youtube.com/embed/FiAzW4aQwps"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    style="border-radius:8px;">
-  </iframe>
-</div>
-
-## Acknowledgements
+<h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln and Wageningen University & Research.
 </p>
