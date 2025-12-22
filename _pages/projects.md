@@ -256,7 +256,7 @@ This list showcases some of the selected research projects, coursework, competit
 
     <!-- Links -->
     <p style="margin-top: 10px;">
-      <a href="/Dance_robot/"
+      <a href="/CrackDetection/"
          style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
         📖 Read More
       </a>
