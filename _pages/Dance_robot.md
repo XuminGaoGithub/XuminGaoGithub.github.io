@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Spot-Based Robotic Studies"
-permalink: /Spot_based_studies/
+title: "A Dancing Robot"
+permalink: /Dance_robot/
 author_profile: true
 ---
 
