@@ -244,7 +244,7 @@ This list showcases some of the selected research projects, coursework, competit
 
     <!-- Date -->
     <p style="margin: 0; color: #666;">
-      <span style="margin-right:6px;">📅</span> 2018
+      <span style="margin-right:6px;">📅</span> 2016
     </p>
 
 
