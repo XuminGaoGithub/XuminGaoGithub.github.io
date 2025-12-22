@@ -85,7 +85,7 @@ The demo video is shown below.
     allowfullscreen
     style="border-radius:8px;">
   </iframe>
-</div
+</div>
 
 
 
