@@ -196,6 +196,42 @@ Thanks to the support of the University of Lincoln.
 </p>
 
 
+<h2>4. Do You Remember, Spot? </h2>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+This work is seen as an important exploration of the potential of Spot robots for the development of cutting-edge agricultural technology, using the example of automatic aphid counting in a sugar beet field. Specifically, Spot went into the sugar beet field and walked to the location of yellow water pans which are used to catch aphids, then the arm of Spot moved to the top of the yellow water pans, took images and then counted aphids using the aphid counting network we proposed. Unfortunately, when we conducted tests, the migration of the aphids had already stopped, so it hardly found any aphids in the yellow water pan. 
+
+<div style="display:flex; justify-content:center; margin:35px 0;">
+  <iframe
+    width="720"
+    height="405"
+    src="https://www.youtube.com/embed/Zemh8i3fBTA"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="border-radius:8px;">
+  </iframe>
+</div>
+
+<div style="display:flex; justify-content:center; margin:35px 0;">
+  <iframe
+    width="720"
+    height="405"
+    src="https://www.youtube.com/embed/4NEYSNmVfww"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="border-radius:8px;">
+  </iframe>
+</div>
+
+We have found that Spot can easily walk through crops and causes less damage to crops compared with the wheeled robots, because it uses its leg to move. In this case, crops can also recover quickly. 
+
+<h3>Acknowledgements</h3>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln.
+</p>
+
+
 
 
 
