@@ -146,8 +146,6 @@ As the topic lead for Interactive Perception, I led the design and implementatio
            object-fit:contain;
          ">
   </div>
-</div>
-
 
 <h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
