@@ -31,8 +31,8 @@ In this project, we designed and developed an indoor mobile robot platform from 
 ">
   <!-- 左图 -->
   <div style="
-    width: 400px;
-    height: 270px;
+    width: 500px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,8 +51,8 @@ In this project, we designed and developed an indoor mobile robot platform from 
 
   <!-- 右视频 -->
   <iframe
-    width="600"
-    height="386"
+    width="500"
+    height="350"
     src="https://www.youtube.com/embed/mzSDeYdyUKI"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
