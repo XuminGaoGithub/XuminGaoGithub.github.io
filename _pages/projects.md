@@ -207,6 +207,63 @@ This list showcases some of the selected research projects, coursework, competit
 
 ---
 
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+
+  <!-- 左侧图片 -->
+  <div style="flex: 0 0 420px;">
+
+
+  <img
+  src="/images/indoor_robot.gif"
+  alt="Project image"
+  style="
+    width: 420px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+  ">
+
+    
+  </div>
+
+  <!-- 右侧文字 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:5px;">
+      An indoor mobile robot platform
+    </h3>
+
+    <!-- Date -->
+    <p style="margin: 0; color: #666;">
+      <span style="margin-right:6px;">📅</span> 2018
+    </p>
+
+
+    <!-- Description -->
+    <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+      This first-generation indoor mobile robot platform, designed and developed by our team, integrates SLAM technologies and deep learning, and was created as part of a research project led by Professor Jiang Lin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology.
+    </p>
+
+    <!-- Links -->
+    <p style="margin-top: 10px;">
+      <a href="/indoor_mobile_robot/"
+         style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
+        📖 Read More
+      </a>
+      <a href="https://youtu.be/mzSDeYdyUKI?si=oPfkSMB-rU9IeTL2"
+         target="_blank"
+         style="display:inline-block; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
+        🎞️ Video
+      </a>
+    </p>
+
+  </div>
+</div>
+
+
+---
+
 <!-- Year Divider -->
 <div style="display: flex; align-items: center; margin: 40px 0 20px 0;">
   <div style="flex: 1; height: 3px; background-color: #333;"></div>
