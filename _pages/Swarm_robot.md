@@ -70,7 +70,7 @@ This work was part of a swarm robotics research project led by Associate Profess
 
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-My primary contribution was the design of a custom STM32-based circuit board specifically for firefly-inspired synchronized flashing experiments. The board integrates Bluetooth communication, a camera module, an LCD display, and other modules. By leveraging color recognition and Bluetooth-based communication, the system mimics the collective synchronization of flashing behavior observed in natural firefly swarms. Specifically, in the swarm robotic system, each robot maintains an internal phase variable that increases over time. Using an onboard camera and color recognition algorithms, the robot perceives flashing signals emitted by neighboring robots. When a nearby robot’s flash is detected, the current phase is recorded and incorporated into subsequent phase update calculations. Once the phase reaches a predefined threshold, the robot triggers its own LED to emit a flash. Through continuous phase adjustment and visual interaction, the system ultimately achieves collective synchronized flashing behavior analogous to that observed in natural firefly swarms. The team members include Gao Xumin, Li Kan, Leibin. The PCB schematics and code have been released on
+My primary contribution was the design of a custom STM32-based circuit board specifically for firefly-inspired synchronized flashing experiments. The board integrates Bluetooth communication, a camera module, an LCD display, and other modules. By leveraging color recognition and Bluetooth-based communication, the system mimics the collective synchronization of flashing behavior observed in natural firefly swarms. Specifically, in the swarm robotic system, each robot maintains an internal phase variable that increases over time. Using an onboard camera and color recognition algorithms, the robot perceives flashing signals emitted by neighboring robots. When a nearby robot’s flash is detected, the current phase is recorded and incorporated into subsequent phase update calculations. Once the phase reaches a predefined threshold, the robot triggers its own LED to emit a flash. Through continuous phase adjustment and visual interaction, the system ultimately achieves collective synchronized flashing behavior analogous to that observed in natural firefly swarms. The PCB schematics and code have been released on
   <a href="https://github.com/XuminGaoGithub/Swarm-Robot-Exploration-Based-on-a-Custom-Designed-STM32-Platform/tree/main?tab=readme-ov-file"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
@@ -131,7 +131,7 @@ My primary contribution was the design of a custom STM32-based circuit board spe
 
 ### Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. 
+This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The team members include Gao Xumin, Li Kan, Leibin.
 </p>
 
 
