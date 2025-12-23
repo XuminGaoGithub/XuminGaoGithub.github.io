@@ -68,7 +68,7 @@ In this work, we designed and implemented a cleaning robot from scratch. We firs
 
 </div>
 
-
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 Due to the reliance on ultrasonic sensors, complex path planning could not be implemented. Our original plan was to use LiDAR in combination with SLAM to achieve this; however, this approach was not applied to this cleaning robot. Instead, we implemented LiDAR with SLAM in another project focused on an indoor mobile robot. In addition, the exploration of the automatic charging function was not successfully realized. The following video presents the actual testing results. And the original source code has been released on
   <a href="https://github.com/XuminGaoGithub/A-simple-cleaning-robot"
      target="_blank"
