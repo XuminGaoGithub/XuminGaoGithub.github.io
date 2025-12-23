@@ -184,7 +184,7 @@ This list showcases some of the selected research projects, coursework, competit
 
     <!-- Description -->
     <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-      This first-generation indoor mobile robot platform, designed and developed by our team, integrates SLAM technologies and deep learning, and was created as part of a research project led by Professor Jiang Lin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology.
+      This first-generation indoor mobile robot platform, designed and implemented by our team, integrates SLAM technologies and deep learning, and was developed as part of a research project led by Professor Jiang Lin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology.
     </p>
 
     <!-- Links -->
