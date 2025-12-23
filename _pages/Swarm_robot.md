@@ -122,6 +122,7 @@ My primary contribution was the design of a custom STM32-based circuit board spe
         max-height: 100%;
         object-fit: contain;
         border-radius: 6px;
+        transform: rotate(90deg);
       "
     />
   </div>
@@ -129,7 +130,7 @@ My primary contribution was the design of a custom STM32-based circuit board spe
 </div>
 
 
-### Acknowledgements
+<h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The team members include Gao Xumin, Li Kan, Leibin.
 </p>
