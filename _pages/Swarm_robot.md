@@ -76,7 +76,8 @@ My primary contribution was the design of a custom STM32-based circuit board spe
      style="color:#1a0dab; text-decoration:underline;">
     github.
   </a>
-</p>
+The team members include Gao Xumin, Li Kan, Leibin.
+</p> 
 
  <div style="
   display: flex;
@@ -132,7 +133,7 @@ My primary contribution was the design of a custom STM32-based circuit board spe
 
 <h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The team members include Gao Xumin, Li Kan, Leibin.
+This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. 
 </p>
 
 
