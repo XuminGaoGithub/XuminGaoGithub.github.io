@@ -18,54 +18,11 @@ author_profile: true
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 This work was part of a swarm robotics research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The project focused on exploring swarm robotic behaviors using custom-designed STM32-based PCB. Representative behaviors investigated included group walking, cooperative object transportation, and firefly-inspired synchronized flashing. 
 
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 10px 0;
-">
-
-  <!-- 左图容器（稍窄） -->
-  <div style="
-    width: 500px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  ">
-    <img
-      src="/images/dance_robot.png"
-      alt="Crack Detection UAV"
-      style="
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 6px;
-      "
-    />
-  </div>
-
-  <!-- 右图容器（更宽） -->
-  <div style="
-    width: 500px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  ">
-    <img
-      src="/images/dance_robot.gif"
-      alt="System Framework"
-      style="
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 6px;
-      "
-    />
-  </div>
-
+<!-- 左图 -->
+<div style="display:flex; justify-content:center; padding:0; margin:0;">
+  <img src="/images/swarm_robot.gif"
+       alt="SPOT_interactive perception"
+       style="display:block; max-width:100%; border-radius:6px; object-fit:contain;">
 </div>
 
 
@@ -76,7 +33,7 @@ My primary contribution was the design of a custom STM32-based circuit board spe
      style="color:#1a0dab; text-decoration:underline;">
     github.
   </a>
-The team members include Gao Xumin, Li Kan, Leibin.
+The team members involved in this part of the work include Gao Xumin, Li Kan, and Lei Bin.
 </p> 
 
  <div style="
