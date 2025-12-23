@@ -11,13 +11,13 @@ author_profile: true
     📅 2016
   </span>
   <span>
-    🔖 Personal Project and Undergraduate Graduation Project
+    🔖 Swarm Robot Exploration Based on a Custom-Designed STM32 Platform
   </span>
 </p>
 
 <h2>A Dancing Robot</h2>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In this work, a robot capable of speaking, singing, and dancing was designed and implemented. Specifically, A humanoid robot was assembled using various aluminum alloy structural components, including U-shaped brackets, L-shaped brackets, and multifunctional brackets, together with eight MG995R servo motors, enabling basic degrees of freedom for the robot’s upper limbs, lower limbs, and torso. In terms of control, a 32-channel servo controller was selected as the main motion control unit. Precise control of servo angles and motion timing was achieved through PWM signals, and multiple sets of dance motion commands were preprogrammed and stored, allowing the robot to perform actions such as arm waving, walking, waist twisting, sliding steps, and rotation. The speech recognition subsystem employs a YS-V0.5 voice recognition module, which outputs corresponding high- or low-level I/O signals upon recognizing predefined voice commands. A relay is used to control the power supply of the servo control system and the music playback module. When a start command is recognized, the relay is activated, and the robot automatically begins executing dance motions while playing music; when a stop command is recognized, the relay is deactivated, and both motion and music playback are terminated. The music subsystem uses a BYS200-U audio module to provide dance accompaniment. Ultimately, a dance robot system integrating motion control, speech interaction, and music playback was successfully realized. 
+This work was part of a swarm robotics research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The project focused on exploring swarm robotic behaviors using custom-designed STM32-based PCB. Representative behaviors investigated included group walking, cooperative object transportation, and firefly-inspired synchronized flashing. 
 
 <div style="
   display: flex;
@@ -73,13 +73,20 @@ In this work, a robot capable of speaking, singing, and dancing was designed and
 
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-The demo video is shown below.
+My primary contribution was the design of a custom STM32-based circuit board specifically for firefly-inspired synchronized flashing experiments. The board integrates Bluetooth communication, a camera module, an LCD display, and other modules. By leveraging color recognition and Bluetooth-based communication, the system mimics the collective synchronization of flashing behavior observed in natural firefly swarms. The PCB schematics have been released on
+  <a href="https://github.com/XuminGaoGithub/An-Intelligent-Human-Robot-Interactive-Mobile-Grasping-Robot-Based-on-Visual-Gesture-Recognition"
+     target="_blank"
+     style="color:#1a0dab; text-decoration:underline;">
+    github.
+  </a>
+</p>
+
 
 <div style="display:flex; justify-content:center; margin:35px 0;">
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/embed//BkcUHUEMeAo"
+    src="https://www.youtube.com/embed//ItFX8F2m2y4"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
@@ -87,11 +94,9 @@ The demo video is shown below.
   </iframe>
 </div>
 
-
-
-<h3>Acknowledgements</h3>
+### Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-Thanks to the support and guidance of Associate Professor Xiaosong Xiong.
+Thanks to the support of the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology, and Associate Professor Lei Bin. The team members include Gao Xumin, Xiao Chao, Wang Huayu, and Lei Bin.
 </p>
 
 
