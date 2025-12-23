@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Crack Detection System Based on Drone Vision"
+title: "An indoor mobile robot platform"
 permalink: /indoor_mobile_robot/
 author_profile: true
 ---
@@ -8,7 +8,7 @@ author_profile: true
 ---
 <p style="margin: 0 0 18px 0; color:#666; font-size:0.95em;">
   <span style="margin-right:20px;">
-    📅 2017
+    📅 2018
   </span>
   <span>
     🔖 Research Project
@@ -16,22 +16,20 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-To meet the demand for automated infrastructure crack inspection, this project develops a crack detection and recognition system integrating UAV platforms and computer vision techniques.
+In this project, we designed and developed an indoor mobile robot platform from scratch, integrating SLAM technologies and deep learning. In terms of hardware, the robot chassis is equipped with two rear active wheels driven by GW4058-555 DC motors and a front passive omni-directional wheel, enabling basic mobility. The platform is also equipped with an LMS111 LiDAR sensor and a Kinect v2 RGB-D camera for environmental perception, while a laptop or NUC serves as the main control system. On the software side, SLAM is implemented using ROS packages, including Gmapping for mapping and AMCL for localization, while navigation is performed using A* for global path planning and DWA for local path planning. For perception, Caffe, combined with CUDA and cuDNN, is used to deploy deep learning models for indoor object detection.
 </p>
 
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of the hardware system, a quadrotor UAV is used as the carrier, integrating a camera, a wireless image transmission module, an ultrasonic distance sensor, and a wireless data transmission module to achieve synchronized acquisition and remote transmission of crack images and shooting distance information. On the PC side, video streams and distance data are received in real time through the image and data transmission modules, providing a data basis for subsequent analysis.
-</p>
+
 
 <div style="
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin: 20px 0;
+  gap: 10px;
+  margin: 10px 0;
+  flex-wrap: nowrap;
 ">
-
-  <!-- 左图容器（稍窄） -->
+  <!-- 左图 -->
   <div style="
     width: 300px;
     height: 220px;
@@ -40,8 +38,8 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
     align-items: center;
   ">
     <img
-      src="/images/Crack_drone.jpg"
-      alt="Crack Detection UAV"
+      src="/images/indoor_robot.jpg"
+      alt="Indoor Mobile Robot"
       style="
         max-width: 100%;
         max-height: 100%;
@@ -51,60 +49,11 @@ In terms of the hardware system, a quadrotor UAV is used as the carrier, integra
     />
   </div>
 
-  <!-- 右图容器（更宽） -->
-  <div style="
-    width: 600px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  ">
-    <img
-      src="/images/Crack_framework.jpg"
-      alt="System Framework"
-      style="
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 6px;
-      "
-    />
-  </div>
-
-</div>
-
-
-
-
-
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In terms of image processing and crack recognition, OpenCV is employed to perform grayscale conversion, filtering, histogram equalization, adaptive thresholding, and morphological operations on the acquired crack images, enabling automatic crack detection and contour extraction. Furthermore, projection features, area features, and distribution density features of cracks are extracted to construct feature vectors, which are then used to train an SVM classifier for automatic identification of crack types, including transverse, longitudinal, diagonal, and reticular cracks. Finally, by calculating the distances between pixel points on both sides of the crack contour and combining ultrasonic distance measurements with pixel-to-real-world scale transformation, the maximum crack width and actual crack area are accurately computed.
-</p>
-
-<div style="text-align: center; margin: 25px 0;">
-  <img
-    src="/images/CrackRec.png"
-    alt="Crack Recognition Results"
-    style="width: 520px; max-width: 100%; border-radius:6px;"
-  />
-</div>
-
-
-<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-The following video presents the actual testing results. And the original source code has been released on
-  <a href="https://github.com/XuminGaoGithub/Crack-Detection-System-Based-on-Drone-Vision"
-     target="_blank"
-     style="color:#1a0dab; text-decoration:underline;">
-    github.
-  </a>
-</p>
-
-
-<div style="display:flex; justify-content:center; margin:35px 0;">
+  <!-- 右视频 -->
   <iframe
     width="720"
     height="405"
-    src="https://www.youtube.com/embed/bnexRIGOKMY"
+    src="https://www.youtube.com/embed/mzSDeYdyUKI"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
@@ -112,9 +61,21 @@ The following video presents the actual testing results. And the original source
   </iframe>
 </div>
 
-### Acknowledgements
+
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. The research team members include Gao Xumin, Xu Pengcheng, Yi Wen, Li Kan, Zhen Chaoxue and Lei Bin.
+This autonomous mobile platform served as a foundational basis for my subsequent Master’s research, providing support for studies such as <a href="https://xueshu.baidu.com/ndscholar/browse/detail?paperid=16760eu011440cd03c1b0ce0ax126705&site=xueshu_se"
+     target="_blank"
+     style="color:#1a0dab; text-decoration:underline;">
+    An algorithm of Extracting Line Feature of Laser Radar Combined with SVM </a> and <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1651/1/012142/meta"
+     target="_blank"
+     style="color:#1a0dab; text-decoration:underline;">
+    Real-time indoor semantic map construction combined with the lightweight object detection network </a> 
+
+
+
+<h3> Acknowledgements</h3>
+<p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+This work was supported by a research project led by Professor Jiang Lin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology.
 </p>
 
 
