@@ -22,9 +22,8 @@ In this work, we designed and developed an automatic weeding robot prototype by 
 <div style="
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin: 10px 0;
-  flex-wrap: wrap;
+  gap: 20px;
+  margin: 35px 0;
 ">
   <iframe
     width="420"
@@ -46,11 +45,9 @@ In this work, we designed and developed an automatic weeding robot prototype by 
     style="border-radius:8px;">
   </iframe>
 </div>
->
-
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-My main contributions to this project were integrating an industrial-grade camera with a compact computing controller (Jetson Nano) and deploying a lightweight YOLO model for the detection of specific toxic weeds. At the same time, I debugged the socket-based communication between the Jetson Nano and the controller of the parallel robotic arms. In addition, I participated in the overall system integration, debugging, and testing of the robotic platform.
+My main contributions to this project were integrating an industrial-grade camera with a compact computing controller (Jetson Nano) and deploying a lightweight YOLO model for the detection of specific poisonous weeds. At the same time, I debugged the socket-based communication between the vision perception computer and the parallel robotic arm controller. In addition, I participated in the overall system integration, debugging, and testing of the robotic platform.
 </p>
 
 
