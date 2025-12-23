@@ -73,7 +73,7 @@ This work was part of a swarm robotics research project led by Associate Profess
 
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-My primary contribution was the design of a custom STM32-based circuit board specifically for firefly-inspired synchronized flashing experiments. The board integrates Bluetooth communication, a camera module, an LCD display, and other modules. By leveraging color recognition and Bluetooth-based communication, the system mimics the collective synchronization of flashing behavior observed in natural firefly swarms. The PCB schematics have been released on
+My primary contribution was the design of a custom STM32-based circuit board specifically for firefly-inspired synchronized flashing experiments. The board integrates Bluetooth communication, a camera module, an LCD display, and other modules. By leveraging color recognition and Bluetooth-based communication, the system mimics the collective synchronization of flashing behavior observed in natural firefly swarms. The team members include Gao Xumin, Li Kan, Leibin. The PCB schematics have been released on
   <a href="https://github.com/XuminGaoGithub/An-Intelligent-Human-Robot-Interactive-Mobile-Grasping-Robot-Based-on-Visual-Gesture-Recognition"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
@@ -96,7 +96,7 @@ My primary contribution was the design of a custom STM32-based circuit board spe
 
 ### Acknowledgements
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-Thanks to the support of the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology, and Associate Professor Lei Bin. The team members include Gao Xumin, Xiao Chao, Wang Huayu, and Lei Bin.
+This work was supported by a research project led by Associate Professor Lei Bin at the Institute of Robotics and Intelligent Systems, Wuhan University of Science and Technology. 
 </p>
 
 
