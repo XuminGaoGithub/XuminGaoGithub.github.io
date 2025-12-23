@@ -16,7 +16,7 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-In this project, we designed and developed an indoor mobile robot platform from scratch, integrating SLAM technologies and deep learning. In terms of hardware, the robot chassis is equipped with two rear active wheels driven by GW4058-555 DC motors and a front passive omni-directional wheel, enabling basic mobility. The platform is also equipped with an LMS111 LiDAR sensor and a Kinect v2 RGB-D camera for environmental perception, while a laptop or NUC serves as the main control system. On the software side, SLAM is implemented using ROS packages, including Gmapping for mapping and AMCL for localization, while navigation is performed using A* for global path planning and DWA for local path planning. For perception, Caffe, combined with CUDA and cuDNN, is used to deploy deep learning models for indoor object detection.
+In this project, we designed and developed an indoor mobile robot platform from scratch, integrating SLAM technologies and deep learning. In terms of hardware, the robot chassis is equipped with two rear active wheels driven by GW4058-555 DC motors and a front passive omni-directional wheel, enabling basic mobility. The platform is also equipped with an LMS111 LiDAR sensor and a Kinect v2 RGB-D camera for environmental perception, while a laptop or NUC serves as the main control system. On the software side, SLAM is implemented using ROS packages, including Gmapping for mapping and AMCL for localization, while navigation is performed using A* for global path planning and DWA for local path planning. For perception, Caffe, combined with CUDA and cuDNN, is used to deploy deep learning models for indoor object detection. The team members included Gao Xumin, Wang Han, Guang Xingyu, Nie Wenkang, and Jiang Lin.
 </p>
 
 
@@ -31,8 +31,8 @@ In this project, we designed and developed an indoor mobile robot platform from 
 ">
   <!-- 左图 -->
   <div style="
-    width: 300px;
-    height: 220px;
+    width: 400px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,8 +51,8 @@ In this project, we designed and developed an indoor mobile robot platform from 
 
   <!-- 右视频 -->
   <iframe
-    width="720"
-    height="405"
+    width="600"
+    height="386"
     src="https://www.youtube.com/embed/mzSDeYdyUKI"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -63,13 +63,13 @@ In this project, we designed and developed an indoor mobile robot platform from 
 
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This autonomous mobile platform served as a foundational basis for my subsequent Master’s research, providing support for studies such as <a href="https://xueshu.baidu.com/ndscholar/browse/detail?paperid=16760eu011440cd03c1b0ce0ax126705&site=xueshu_se"
+This autonomous mobile platform served as a foundational basis for my subsequent Master’s research, providing support for studies such as <a href="https://github.com/XuminGaoGithub/An-algorithm-of-extracting-line-feature-of-laser-radar-combined-with-SVM/tree/main"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
-    An algorithm of Extracting Line Feature of Laser Radar Combined with SVM </a> and <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1651/1/012142/meta"
+    line feature extraction of laser radar and indoor local structured environment recognition using line features </a>, and <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1651/1/012142/meta"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
-    Real-time indoor semantic map construction combined with the lightweight object detection network </a> 
+    indoor object detection and semantic map construction. </a> 
 
 
 
