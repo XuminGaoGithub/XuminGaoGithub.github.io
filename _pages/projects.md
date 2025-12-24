@@ -10,7 +10,7 @@ author_profile: true
 
 {% include base_path %}
 
-This list showcases some of the selected research projects, coursework, competition work, and independent projects I have worked on throughout my career, which are not included in the [**publications section**](https://xumingaogithub.github.io/publications/).
+This list showcases some of the selected research projects, course projects, competition work, and independent projects I have worked on throughout my career, which are not included in the [**publications section**](https://xumingaogithub.github.io/publications/).
 
 
 
