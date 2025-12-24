@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Tallon AI: Probabilistic Decision-Making in Mean Arena"
+title: "Research on Autonomous Decision-Making Agents for Super Mario Bros Based on Various Deep DQN Architectures"
 permalink: /AML/
 author_profile: true
 ---
@@ -16,11 +16,11 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work is the final project for the Advanced AI course at the University of Lincoln. I designed an AI decision-making agent based on probabilistic reasoning and optimal policy planning, integrating Markov Decision Processes, value iteration, belief state updates and others to enable rational sequential decision-making under both fully observable and partially observable environments. Under fully observable conditions, the game is modeled as a Markov Decision Process (MDP), in which a state transition model and a reward function are constructed, and the optimal policy is obtained using value iteration. Within this framework of maximizing expected long-term reward, Tallon is encouraged to avoid enemies and pits while prioritizing the collection of bonuses. Under partially observable conditions, the problem is further extended to a Partially Observable Markov Decision Process (POMDP), where belief states over enemy locations are maintained and combined with a prediction mechanism to approximate the incomplete information and map it back to an MDP for decision-making. In addition, reward shaping strategies based on distance and aggregated risk are introduced to enhance survivability and overall performance. Experimental results demonstrate that the proposed approach exhibits good robustness and adaptability across different map sizes and parameter configurations. More details about this work, please check this <a href="/files/mean-Gao-Xumin.pdf"
+This work is the final project for the Advanced ML course at the University of Lincoln. This project implements and compares five DQN-based agents with different network architectures for autonomous gameplay in the Super Mario Bros environment, based on the official PyTorch tutorial. The implemented agents include Nature DQN (CNN), Nature DQN (RNN), Nature DQN (Transformer), Double DQN (from the official tutorial), and Dueling DQN. All models are value-based deep reinforcement learning methods grounded in Q-learning, approximating the action-value function \( Q(s, a) \) using deep neural networks. During training, the agents leverage experience replay (Replay Buffer), ε-greedy exploration, and target networks to improve training stability and sample efficiency. Under a constrained training budget of 3000 episodes, Dueling DQN achieved the highest average reward, while the Transformer-based architecture outperformed traditional CNNs in terms of average reward, highlighting its potential for future DRL research. These findings suggest that integrating Dueling structures with Transformer-based networks may lead to more effective deep reinforcement learning agents. More details about this work, please check this <a href="/files/AML.pdf"
    target="_blank"
    style="color:#1a0dab; text-decoration:underline;">
   report</a>. The code has been released on
-  <a href="https://github.com/XuminGaoGithub/Tallon-AI-Probabilistic-Decision-Making-in-Mean-Arena"
+  <a href="https://github.com/XuminGaoGithub/Research-on-Autonomous-Decision-Making-Agents-Based-on-Various-Deep-DQN-Architectures"
      target="_blank"
      style="color:#1a0dab; text-decoration:underline;">
     github.
@@ -49,7 +49,7 @@ This work is the final project for the Advanced AI course at the University of L
       align-items: center;
     ">
       <img
-        src="/images/fullMDP.gif"
+        src="/images/DDQN-1.gif"
         alt="Crack Detection UAV"
         style="
           max-width: 100%;
@@ -64,45 +64,10 @@ This work is the final project for the Advanced AI course at the University of L
       text-align: center;
       font-size: 16px;
     ">
-      Fully observable environment
-    </div>
-  </div>
-
-  <!-- 右图容器 -->
-  <div style="
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  ">
-    <div style="
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    ">
-      <img
-        src="/images/partMDP.gif"
-        alt="System Framework"
-        style="
-          max-width: 100%;
-          max-height: 100%;
-          object-fit: contain;
-          border-radius: 6px;
-        "
-      />
-    </div>
-    <div style="
-      margin-top: 8px;
-      text-align: center;
-      font-size: 16px;
-    ">
-      Partially observable environment
     </div>
   </div>
 
 </div>
-
 
 
 
