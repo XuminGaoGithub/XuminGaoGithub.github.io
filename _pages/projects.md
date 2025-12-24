@@ -77,6 +77,64 @@ This list showcases some of the selected research projects, coursework, competit
 </div>
 
 
+---
+
+<!-- Year Divider -->
+<div style="display: flex; align-items: center; margin: 40px 0 20px 0;">
+  <div style="flex: 1; height: 3px; background-color: #333;"></div>
+  <div style="padding-left: 12px; font-size: 1.4em; font-weight: 700;">2022</div>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+
+  <!-- 左侧图片 -->
+  <div style="flex: 0 0 420px;">
+
+
+  <img
+  src="/images/fullMDP.gif"
+  alt="Project image"
+  style="
+    width: 450px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 8px;
+  ">
+
+    
+  </div>
+
+  <!-- 右侧文字 -->
+  <div style="flex: 1;">
+
+    <!-- Title -->
+    <h3 style="margin-top:0; margin-bottom:5px;">
+      Tallon AI: Probabilistic Decision-Making in Mean Arena
+    </h3>
+
+    <!-- Date -->
+    <p style="margin: 0; color: #666;">
+      <span style="margin-right:6px;">📅</span> 2022
+    </p>
+
+
+    <!-- Description -->
+    <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
+      In this work, I designed an AI decision-making agent based on probabilistic reasoning and optimal policy planning, integrating Markov Decision Processes, value iteration, belief state updates and others to enable rational sequential decision-making under both fully observable and partially observable environments.
+    </p>
+
+    <!-- Links -->
+    <p style="margin-top: 10px;">
+      <a href="/AAI/"
+         style="display:inline-block; margin-right:12px; padding:4px 12px; background-color:#000; color:#fff; text-decoration:none; border-radius:4px; font-size:1em; font-weight:600;">
+        📖 Read More
+      </a>
+    </p>
+
+  </div>
+</div>
+
+
 
 ---
 
