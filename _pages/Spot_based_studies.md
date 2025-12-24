@@ -228,7 +228,7 @@ We have found that Spot can easily walk through crops and causes less damage to 
 
 <h3>Acknowledgements</h3>
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This work was supported by the Engineering and Physical Sciences Research Council and AgriFoRwArdS CDT [EP/S023917/1]. Thanks to the support of the University of Lincoln.
+This work was supported by the Engineering and Physical Sciences Research Council [EP/S023917/1], AgriFoRwArdS CDT and BBRO. Thanks to the support of the University of Lincoln.
 </p>
 
 
