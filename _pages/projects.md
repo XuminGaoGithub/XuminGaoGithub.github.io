@@ -114,7 +114,7 @@ This list showcases some of the selected research projects, course projects, com
 
     <!-- Description -->
     <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-      In this short project, I tested and compared SAM-centric and CLIP-centric open-vocabulary vision–language segmentation approaches in the context of strawberry harvesting scene understanding..
+      In this short project, I tested and compared SAM-centric and CLIP-centric open-vocabulary vision–language segmentation approaches in the context of strawberry harvesting scene understanding.
     </p>
 
     <!-- Links -->
