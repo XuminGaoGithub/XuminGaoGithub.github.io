@@ -22,13 +22,13 @@ This RA work is part of a strawberry harvesting efficiency evaluation study led 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
   margin: 20px 0;
 ">
 
   <!-- 左图容器 -->
   <div style="
-    width: 300px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +60,7 @@ This RA work is part of a strawberry harvesting efficiency evaluation study led 
 
 </div>
 
-<h2>Conclusions</h2>Conclusions 
+<h2>Conclusions</h2> 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
 SAM achieves fine-grained segmentation but lacks semantic understanding. FC-CLIP is relatively effective at identifying foliage, though it occasionally misclassifies strawberries as foliage and struggles with identifying punnets. SSA offers more detailed recognition, yet suffers from significant confusion among classes. CLIP-SAM demonstrates superior overall recognition performance, though ripe and unripe strawberries, as well as foliage and unripe strawberries, are prone to misclassification. Grounded-SAM exhibits the most balanced performance: despite performing poorly on distant strawberries and occasional failures in identifying punnets and trolleys, it accurately identifies and segments the majority of target objects, making it the most effective method. The following presents the results obtained using Grounded-SAM.
 
