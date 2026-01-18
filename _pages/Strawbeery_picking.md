@@ -25,40 +25,17 @@ This RA work is part of a strawberry harvesting efficiency evaluation study led 
   gap: 5px;
   margin: 20px 0;
 ">
-
-  <!-- 左图容器 -->
-  <div style="
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  ">
-    <div style="
-      height: 800px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    ">
+  <div style="width: 800px; display: flex; flex-direction: column; align-items: center;">
+    <div style="display: flex; justify-content: center; align-items: center;">
       <img
         src="/images/comparason_strwberry_picking.jpg"
-        alt="Crack Detection UAV"
-        style="
-          max-width: 100%;
-          max-height: 100%;
-          object-fit: contain;
-          border-radius: 6px;
-        "
+        alt="Strawberry Picking"
+        style="max-width: 100%; height: auto; object-fit: contain; border-radius: 6px;"
       />
     </div>
-    <div style="
-      margin-top: 8px;
-      text-align: center;
-      font-size: 16px;
-    ">
-    </div>
   </div>
-
 </div>
+
 
 <h2>Conclusions</h2> 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
