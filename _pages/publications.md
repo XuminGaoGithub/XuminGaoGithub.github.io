@@ -599,7 +599,7 @@ author_profile: true
     <!-- Buttons -->
     <p style="margin: 10px 0;">
       <a href="https://xueshu.baidu.com/ndscholar/browse/detail?paperid=16760eu011440cd03c1b0ce0ax126705&site=xueshu_se" style="margin-right:15px;">📄 Full Paper</a>
-      <a href="https://github.com/XuminGaoGithub/An-algorithm-of-extracting-line-feature-of-laser-radar-combined-with-SVM" style="margin-right:15px;">💻 Code</a>
+      <a href="https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=SJSJ201908047&uniplatform=OVERSEA&v=7d893uLcWt6Ikf0FOVXgrv_SDGl8vqCV1lf89WZ1YpOwXY_1dG1JkQMUFjkpi3we" style="margin-right:15px;">💻 Code</a>
       <!-- <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a> -->
     </p>
 
