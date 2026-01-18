@@ -25,7 +25,7 @@ This RA work is part of a strawberry harvesting efficiency evaluation study led 
   gap: 5px;
   margin: 5px 0;
 ">
-  <div style="width: 700px; display: flex; flex-direction: column; align-items: center;">
+  <div style="width: 900px; display: flex; flex-direction: column; align-items: center;">
     <div style="display: flex; justify-content: center; align-items: center;">
       <img
         src="/images/comparason_strwberry_picking.jpg"
