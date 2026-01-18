@@ -16,7 +16,7 @@ author_profile: true
 </p>
 
 <p style="margin-top:5px; text-align: justify; text-justify: inter-word; text-align-last: left;">
-This RA work is part of a strawberry harvesting efficiency evaluation study led by Dr. Leonardo Guevara at the Lincoln Institute for Agri-Food Technology, University of Lincoln. My primary contribution was to test and compare five SAM-centric and CLIP-centric open-vocabulary vision–language segmentation methods for strawberry harvesting scene understanding. These methods include SAM, FC-CLIP, CLIP-SAM, Grounded-SAM, and Semantic Segment Anything. The primary target objects for recognition include ripe strawberries, unripe strawberries, foliage, trolleys, punnets, and human hands. 
+This RA work is part of a strawberry harvesting efficiency evaluation study led by Dr. Leonardo Guevara at the Lincoln Institute for Agri-Food Technology, University of Lincoln. My primary contribution was to test and compare five SAM-centric and CLIP-centric open-vocabulary vision–language segmentation methods for strawberry harvesting scene understanding. These methods include SAM, FC-CLIP, CLIP-SAM, Grounded-SAM, and Semantic Segment Anything (SSA). The primary target objects for recognition include ripe strawberries, unripe strawberries, foliage, trolleys, punnets, and human hands. 
 
 <div style="
   display: flex;
