@@ -37,7 +37,7 @@ author_profile: true
 
     <!-- Title -->
     <h3 style="margin-top:0; margin-bottom:10px; font-weight: 700;">
-      A Robotic Stirring Method with Trajectory Optimization and Adaptive Speed Control for Accurate Pest Counting in Water Traps
+      Automated Pest Counting in Water Traps through Active Robotic Stirring for Occlusion Handling
     </h3>
 
     <!-- Authors -->
@@ -62,14 +62,14 @@ author_profile: true
     <p style="margin: 10px 0;">
       <a href="https://arxiv.org/abs/2510.21732" style="margin-right:15px;">📄 Full Paper</a>
       <!-- <a href="https://github.com/XuminGaoGithub/Automatic_aphid_counting___2023" style="margin-right:15px;">💻 Code</a> -->
-      <a href="https://www.youtube.com/watch?v=lLbWPpn5N40">🎞️ Video</a>
+      <a href="https://www.youtube.com/watch?v=VhBbaObDPLc">🎞️ Video</a>
     </p>
 
     <!-- Abstract collapsible -->
     <details>
       <summary><b>Show Abstract</b></summary>
       <p style="margin-top:5px; text-align: justify; text-justify: inter-word;">
-        Accurate monitoring of pest population dynamics is crucial for informed decision-making in precision agriculture. Currently, mainstream image-based pest counting methods primarily rely on image processing combined with machine learning or deep learning for pest counting. However, these methods have limitations and struggle to handle situations involving pest occlusion. To address this issue, this paper proposed a robotic stirring method with trajectory optimization and adaptive speed control for accurate pest counting in water traps. First, we developed an automated stirring system for pest counting in yellow water traps based on a robotic arm. Stirring alters the distribution of pests in the yellow water trap, making some of the occluded individuals visible for detection and counting. Then, we investigated the impact of different stirring trajectories on pest counting performance and selected the optimal trajectory for pest counting. Specifically, we designed six representative stirring trajectories, including circle, square, triangle, spiral, four small circles, and random lines, for the robotic arm to stir. And by comparing the overall average counting error and counting confidence of different stirring trajectories across various pest density scenarios, we determined the optimal trajectory. Finally, we proposed a counting confidence-driven closed-loop control system to achieve adaptive-speed stirring. It uses changes in pest counting confidence between consecutive frames as feedback to adjust the stirring speed. To the best of our knowledge, this is the first study dedicated to investigating the effects of different stirring trajectories on object counting in the dynamic liquid environment and to implement adaptive-speed stirring for this type of task. Experimental results show that the four small circles is the optimal stirring trajectory, achieving the lowest overall average counting error of 4.3840 and the highest overall average counting confidence of 0.7204. Furthermore, experimental results show that compared to constant-speed stirring, adaptive-speed stirring demonstrates significant advantages across low, medium, and high pest density scenarios: the average time consumption was reduced by 38.9%, 44.8%, and 36.5%, respectively, while fluctuations were markedly decreased, with the standard deviation reduced by 52.8%, 78.1%, and 70.2%, respectively, reflecting adaptive-speed stirring achieves better efficiency and stability.
+        Existing image-based pest counting methods rely on single static images and often produce inaccurate results under occlusion. To address this issue, this paper proposes an automated pest counting method in water traps through active robotic stirring. First, an automated robotic arm-based stirring system is developed to redistribute pests and reveal occluded individuals for counting. Then, the effects of different stirring patterns on pest counting performance are investigated. Six stirring patterns are designed and evaluated across different pest density scenarios to identify the optimal one. Finally, a heuristic counting confidence-driven closed-loop control system is proposed for adaptive-speed robotic stirring, adjusting the stirring speed based on the average change rate of counting confidence between consecutive frames. Experimental results show that the four circles is the optimal stirring pattern, achieving the lowest overall mean absolute counting error of 4.384 and the highest overall mean counting confidence of 0.721. Compared with constant-speed stirring, adaptive-speed stirring reduces task execution time by up to 44.7% and achieves more stable performance across different pest density scenarios. Moreover, the proposed pest counting method reduces the mean absolute counting error by up to 3.428 compared to the single static image counting method under high-density scenarios where occlusion is severe.
       </p>
     </details>
 
